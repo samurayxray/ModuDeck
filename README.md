@@ -29,3 +29,5 @@ On GitHub: **Actions → Build 3D models → Run workflow** creates a ZIP with s
 - [Personal journal](JOURNAL.md)
 
 The concept and initial sources were developed with AI assistance. Record only actual personal work and time in the journal; no funding or completion is declared.
+this is a blueprint 
+<img width="1536" height="1024" alt="blueprint2" src="https://github.com/user-attachments/assets/1667dc44-f59c-4911-91a6-c5c131656df9" />
