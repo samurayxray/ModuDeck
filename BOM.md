@@ -31,7 +31,6 @@
 | Antenna indicativa | — | 1 | $0.00 | $0.00 | — |
 | Vite laterale indicativa | — | 1 | $0.00 | $0.00 | — |
 | Scheda computer indicativa | — | 1 | $0.00 | $0.00 | — |
-| Scheda alimentazione indicativa | — | 1 | $0.00 | $0.00 | — |
 | **Parts subtotal** | — | — | — | **$0.00** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
 | **Total** | — | — | — | **$0.00** | — |
