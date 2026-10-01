@@ -1,21 +1,16 @@
-part,quantity,vendor_url,unit_price_usd,status
-Scocca piano PC,,,,not selected
-Cornice schermo,,,,not selected
-Display principale,,,,not selected
-Tastiera,,,,not selected
-Touchpad ribaltabile,,,,not selected
-Telefono integrato,,,,not selected
-Tastierino telefonico,,,,not selected
-Cerniera schermo,,,,not selected
-Piano drone,,,,not selected
-Drone indicativo,,,,not selected
-Piano batterie,,,,not selected
-Batteria indicativa,,,,not selected
-Piano archiviazione,,,,not selected
-Disco indicativo,,,,not selected
-Connettore tra piani,,,,not selected
-Pannello posteriore,,,,not selected
-Antenna indicativa,,,,not selected
-Vite laterale indicativa,,,,not selected
-Scheda computer indicativa,,,,not selected
-Scheda alimentazione indicativa,,,,not selected
+Part,Quantity,Unit price USD,Vendor,Status
+Computer board,1,,,To select
+Display,1,,,To select
+USB keyboard,1,,,To select
+USB touchpad,1,,,To select
+Small phone or cellular solution,1,,,Deferred component selection
+Phone keypad,1,,,To select
+USB hub,1,,,To select
+USB and display cables,1,,,To select
+Compatible power supply,1,,,To select
+Metal hinges and pins,1,,,To size
+M3 screws nuts and inserts,1,,,To size
+Printed PC enclosure and display frame,1,,,Printing quote needed
+Printed empty floors,3,,,Printing quote needed
+Printed guides cable clamps feet and handle,1,,,Printing quote needed
+Tax and shipping,1,,,To quote

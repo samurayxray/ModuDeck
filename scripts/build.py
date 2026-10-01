@@ -24,7 +24,7 @@ def export(source,target,defines=()):
 
 for key,defines in [("assembled",["exploded=false","phone_open=false"]),("exploded",["exploded=true","phone_open=true"])]:
     models[key]=export(ROOT/"cad/modudeck.scad",CAD/("modudeck-"+key+".stl"),defines)
-    meta[key]={"name":"Assemblato" if key=="assembled" else "Vista esplosa","role":"Concept completo a quattro piani"}
+    meta[key]={"name":"Assemblato" if key=="assembled" else "Vista esplosa","role":"PC e tre piani vuoti"}
 for part in parts:
     key=part["id"]
     models[key]=export(ROOT/"cad/parts"/(key+".scad"),CAD/(key+".stl"))

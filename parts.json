@@ -48,39 +48,15 @@
     "status": "Concept: quote provvisorie, componente reale da definire"
   },
   {
-    "id": "09-drone-tray",
-    "name": "Piano drone",
-    "role": "Trasporto e futura ricarica compatibile.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
-  },
-  {
-    "id": "10-drone-placeholder",
-    "name": "Drone indicativo",
-    "role": "Sagoma di ingombro; drone reale da scegliere.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
-  },
-  {
     "id": "11-battery-tray",
-    "name": "Piano batterie",
-    "role": "Ospita batterie e gestione energia.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
-  },
-  {
-    "id": "12-battery-placeholder",
-    "name": "Batteria indicativa",
-    "role": "Sagoma; chimica e tensione non definite.",
+    "name": "Piano vuoto basso",
+    "role": "Vassoio generico per espansioni future, senza elettronica.",
     "status": "Concept: quote provvisorie, componente reale da definire"
   },
   {
     "id": "13-storage-tray",
-    "name": "Piano archiviazione",
-    "role": "Ospita dischi e adattatori.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
-  },
-  {
-    "id": "14-drive-placeholder",
-    "name": "Disco indicativo",
-    "role": "Memorizza dati; formato da scegliere.",
+    "name": "Piano vuoto medio",
+    "role": "Vassoio generico per espansioni future, senza elettronica.",
     "status": "Concept: quote provvisorie, componente reale da definire"
   },
   {
@@ -96,12 +72,6 @@
     "status": "Concept: quote provvisorie, componente reale da definire"
   },
   {
-    "id": "17-antenna-placeholder",
-    "name": "Antenna indicativa",
-    "role": "Radio; banda e connettore da definire.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
-  },
-  {
     "id": "18-side-screw",
     "name": "Vite laterale indicativa",
     "role": "Fissaggio; sagoma senza filettatura.",
@@ -114,9 +84,33 @@
     "status": "Concept: quote provvisorie, componente reale da definire"
   },
   {
-    "id": "20-power-board",
-    "name": "Scheda alimentazione indicativa",
-    "role": "Gestione energia; circuito da progettare.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "id": "21-empty-tray",
+    "name": "Piano vuoto alto",
+    "role": "Vassoio generico con passaggi posteriori per cavi.",
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+  },
+  {
+    "id": "22-alignment-guide",
+    "name": "Guida di allineamento",
+    "role": "Allinea i piani; tolleranze da verificare.",
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+  },
+  {
+    "id": "23-cable-clamp",
+    "name": "Fermacavo",
+    "role": "Sostiene i cavi esterni senza caricare le prese.",
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+  },
+  {
+    "id": "24-foot",
+    "name": "Piedino",
+    "role": "Sostiene il fondo; gomma da aggiungere.",
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+  },
+  {
+    "id": "25-handle",
+    "name": "Maniglia e attacchi",
+    "role": "Forma preliminare; carico e perni metallici da verificare.",
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
   }
 ]
