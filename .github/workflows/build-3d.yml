@@ -1,0 +1,21 @@
+name: Build 3D models
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  models:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install OpenSCAD
+        run: sudo apt-get update && sudo apt-get install -y openscad
+      - name: Export STL and interactive viewer
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: python3 scripts/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ModuDeck-3D-complete
+          path: output/
+          if-no-files-found: error

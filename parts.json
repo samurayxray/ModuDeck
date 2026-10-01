@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01-pc-case",
+    "name": "Scocca piano PC",
+    "role": "Contiene computer e comandi; sostiene lo schermo.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "02-display-frame",
+    "name": "Cornice schermo",
+    "role": "Sostiene e protegge il display.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "03-display",
+    "name": "Display principale",
+    "role": "Mostra desktop e programmi.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "04-keyboard",
+    "name": "Tastiera",
+    "role": "Inserimento del testo.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "05-touchpad-flap",
+    "name": "Touchpad ribaltabile",
+    "role": "Puntatore; si solleva per scoprire il telefono.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "06-phone",
+    "name": "Telefono integrato",
+    "role": "Chiamate; soluzione telefonica e audio da definire.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "07-phone-keypad",
+    "name": "Tastierino telefonico",
+    "role": "Composizione numeri.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "08-hinge",
+    "name": "Cerniera schermo",
+    "role": "Apertura del display.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "09-drone-tray",
+    "name": "Piano drone",
+    "role": "Trasporto e futura ricarica compatibile.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "10-drone-placeholder",
+    "name": "Drone indicativo",
+    "role": "Sagoma di ingombro; drone reale da scegliere.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "11-battery-tray",
+    "name": "Piano batterie",
+    "role": "Ospita batterie e gestione energia.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "12-battery-placeholder",
+    "name": "Batteria indicativa",
+    "role": "Sagoma; chimica e tensione non definite.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "13-storage-tray",
+    "name": "Piano archiviazione",
+    "role": "Ospita dischi e adattatori.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "14-drive-placeholder",
+    "name": "Disco indicativo",
+    "role": "Memorizza dati; formato da scegliere.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "15-interfloor-connector",
+    "name": "Connettore tra piani",
+    "role": "Dati e alimentazione; bus e pinout da definire.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "16-rear-panel",
+    "name": "Pannello posteriore",
+    "role": "Supporto porte, alimentazione e antenne.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "17-antenna-placeholder",
+    "name": "Antenna indicativa",
+    "role": "Radio; banda e connettore da definire.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "18-side-screw",
+    "name": "Vite laterale indicativa",
+    "role": "Fissaggio; sagoma senza filettatura.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "19-computer-board",
+    "name": "Scheda computer indicativa",
+    "role": "Sistema operativo e programmi.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  },
+  {
+    "id": "20-power-board",
+    "name": "Scheda alimentazione indicativa",
+    "role": "Gestione energia; circuito da progettare.",
+    "status": "Concept: quote provvisorie, componente reale da definire"
+  }
+]
