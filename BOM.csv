@@ -1,16 +1,32 @@
-Part,Quantity,Unit price USD,Vendor,Status
-Computer board,1,,,To select
-Display,1,,,To select
-USB keyboard,1,,,To select
-USB touchpad,1,,,To select
-Small phone or cellular solution,1,,,Deferred component selection
-Phone keypad,1,,,To select
-USB hub,1,,,To select
-USB and display cables,1,,,To select
-Compatible power supply,1,,,To select
-Metal hinges and pins,1,,,To size
-M3 screws nuts and inserts,1,,,To size
-Printed PC enclosure and display frame,1,,,Printing quote needed
-Printed empty floors,3,,,Printing quote needed
-Printed guides cable clamps feet and handle,1,,,Printing quote needed
-Tax and shipping,1,,,To quote
+part,quantity,unit_price_usd,vendor_url,type,status
+PC lower enclosure,1,,,3D printed,Printing quote needed
+PC top deck and keyboard support,1,,,3D printed,CAD refinement needed
+Display back cover,1,,,3D printed,CAD refinement needed
+Display frame,1,,,3D printed,Printing quote needed
+Flip-up touchpad cover,1,,,3D printed,Printing quote needed
+Phone cradle,1,,,3D printed,CAD refinement needed
+Phone keypad support,1,,,3D printed,CAD refinement needed
+Empty stackable tray - lower,1,,,3D printed,Printing quote needed
+Empty stackable tray - middle,1,,,3D printed,Printing quote needed
+Empty stackable tray - upper,1,,,3D printed,Printing quote needed
+Rear cable access panels,3,,,3D printed,Fit and quantity to verify
+Alignment guides,12,,,3D printed,Provisional quantity
+Cable clamps,4,,,3D printed,Provisional quantity
+Feet,4,,,3D printed,Printing quote needed
+Carry handle and mounting brackets,1,,,3D printed,Load and hardware to verify
+Display and touchpad metal hinges,1,,,Purchased hardware,Set - type and quantity to select
+Metal handle pivot pins,2,,,Purchased hardware,Size to select
+M3 screws nuts and threaded inserts,1,,,Purchased hardware,Set - lengths and quantities to size
+Rubber foot pads,4,,,Purchased hardware,To select
+Computer board,1,,,Purchased electronics,Model to select
+Compatible main display,1,,,Purchased electronics,Model to select
+Compact USB keyboard,1,,,Purchased electronics,Model to select
+USB touchpad,1,,,Purchased electronics,Model to select
+Small phone or cellular solution,1,,,Purchased electronics,Model and audio solution to select
+Phone dialing keypad,1,,,Purchased electronics,Interface to select
+USB hub,1,,,Purchased electronics,Ports and power to select
+Compatible power supply,1,,,Purchased electronics,Voltage and power to select
+Short USB data cables,1,,,Purchased cables,Set - lengths and quantity to select
+Display cable,1,,,Purchased cables,Interface and length to select
+Power cable,1,,,Purchased cables,Connector and rating to select
+Inter-layer connector pairs,3,,,Purchased connectors,Concept only - pinout and rating undefined
