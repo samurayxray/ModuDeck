@@ -18,9 +18,6 @@
 | Tastiera | — | 1 | $0.00 | $0.00 | — |
 | Touchpad ribaltabile | — | 1 | $0.00 | $0.00 | — |
 | Telefono integrato | — | 1 | $0.00 | $0.00 | — |
-| Tastierino telefonico | — | 1 | $0.00 | $0.00 | — |
-| Cerniera schermo | — | 1 | $0.00 | $0.00 | — |
-| Piano drone | — | 1 | $0.00 | $0.00 | — |
 | **Parts subtotal** | — | — | — | **$0.00** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
 | **Total** | — | — | — | **$0.00** | — |
