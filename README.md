@@ -1,5 +1,5 @@
 # ModuDeck
-A modular-plane portable computer concept — by Samuele.
+A modular-plane portable computer concept — by Samuele aka samuray_xray
 
 ## Project
 A laptop-style upper PC with a display, a fixed keyboard and foldable touchpad above a small phone, and a phone-style numeric keypad on the right. Current scope: the PC and three empty full-footprint stackable layers, with cable access, side fasteners and connector placeholders. Drone and other expansion electronics are deferred.
