@@ -27,9 +27,6 @@
 | Piano archiviazione | — | 1 | $0.00 | $0.00 | — |
 | Disco indicativo | — | 1 | $0.00 | $0.00 | — |
 | Connettore tra piani | — | 1 | $0.00 | $0.00 | — |
-| Pannello posteriore | — | 1 | $0.00 | $0.00 | — |
-| Antenna indicativa | — | 1 | $0.00 | $0.00 | — |
-| Vite laterale indicativa | — | 1 | $0.00 | $0.00 | — |
 | **Parts subtotal** | — | — | — | **$0.00** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
 | **Total** | — | — | — | **$0.00** | — |
