@@ -1,0 +1,14 @@
+from,to,interface,status
+Pi4 supply,Pi4 USB-C,5.1V 3A supply,Candidate
+Pi4 micro-HDMI,Display HDMI,Micro-HDMI to HDMI cable,Display model TBD
+Pi4 USB,Keyboard,USB HID,Candidate
+Pi4 USB,Touchpad,USB HID,Model TBD
+Pi4 USB,Hub upstream,USB data,Verify no backfeed
+Hub downstream,Tray 1,USB cable,Reserved empty
+Hub downstream,Tray 2,USB cable,Reserved empty
+Hub downstream,Tray 3,USB cable,Reserved empty
+Pico GP0,R1,3.3V GPIO,Optional bench circuit
+R1,LED anode,1k ohm resistor,Optional bench circuit
+LED cathode,Pico GND,Ground,Optional bench circuit
+Pico GP1,SW1,Input pull-up,Optional bench circuit
+SW1,Pico GND,Normally open button,Optional bench circuit
