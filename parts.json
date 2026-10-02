@@ -25,20 +25,8 @@
   },
   {
     "id": "05-touchpad-flap",
-    "name": "Touchpad ribaltabile",
-    "role": "Puntatore; si solleva per scoprire il telefono.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
-  },
-  {
-    "id": "06-phone",
-    "name": "Telefono integrato",
-    "role": "Chiamate; soluzione telefonica e audio da definire.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
-  },
-  {
-    "id": "07-phone-keypad",
-    "name": "Tastierino telefonico",
-    "role": "Composizione numeri.",
+    "name": "Touchpad",
+    "role": "Puntatore USB con supporto fisso; modello reale da scegliere.",
     "status": "Concept: quote provvisorie, componente reale da definire"
   },
   {

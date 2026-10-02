@@ -22,7 +22,7 @@ def export(source,target,defines=()):
         raise RuntimeError("Invalid or empty mesh: "+str(target))
     return [vertices[i:i+3] for i in range(0,len(vertices),3)]
 
-for key,defines in [("assembled",["exploded=false","phone_open=false"]),("exploded",["exploded=true","phone_open=true"])]:
+for key,defines in [("assembled",["exploded=false"]),("exploded",["exploded=true"])]:
     models[key]=export(ROOT/"cad/modudeck.scad",CAD/("modudeck-"+key+".stl"),defines)
     meta[key]={"name":"Assemblato" if key=="assembled" else "Vista esplosa","role":"PC e tre piani vuoti"}
 for part in parts:

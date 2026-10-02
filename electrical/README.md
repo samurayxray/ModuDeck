@@ -48,7 +48,7 @@ Use GPIO names, not physical pin numbers, and confirm the selected board pinout 
 See [tray-test-circuit.svg](tray-test-circuit.svg). Suggested identification fields: protocol_version, unique_board_id, tray_name, button_state. Labels identify the device, not its physical stack position; automatic floor position detection is deferred.
 
 ## Deferred circuits
-Phone calling/audio, dialing-keypad interface, batteries, charging, high-current outputs, electrical docking and hot-plug sequencing. The phone is a mounting provision, not a working phone circuit. Do not connect a matrix keypad directly to USB.
+Batteries, charging, high-current outputs, electrical docking and hot-plug sequencing. Phone and dialing keypad have been removed from the project.
 
 ## Verification plan
 1. Select display and hub models, power connections and USB backfeed behavior.
