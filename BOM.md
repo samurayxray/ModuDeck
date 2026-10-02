@@ -34,9 +34,8 @@
 | Short USB data cables | — | 1 | $8.00 | $8.00 | — |
 | Display cable | — | 1 | $5.00 | $5.00 | — |
 | Power cable | — | 1 | $4.00 | $4.00 | — |
-| Inter-layer connector pairs | — | 3 | $5.00 | $15.00 | — |
-| **Parts subtotal** | — | — | — | **$112.75** | — |
+| **Parts subtotal** | — | — | — | **$97.75** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$112.75** | — |
+| **Total** | — | — | — | **$97.75** | — |
 
-**$47.75 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$32.75 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
