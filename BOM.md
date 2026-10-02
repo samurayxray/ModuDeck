@@ -23,7 +23,6 @@
 | Empty stackable tray - middle | — | 1 | $6.00 | $6.00 | — |
 | Empty stackable tray - upper | — | 1 | $8.00 | $8.00 | — |
 | Rear cable access panels | — | 3 | $0.75 | $2.25 | — |
-| Alignment guides | — | 12 | $0.15 | $1.80 | — |
 | Cable clamps | — | 4 | $0.35 | $1.40 | — |
 | Feet | — | 4 | $0.35 | $1.40 | — |
 | Carry handle and mounting brackets | — | 1 | $2.00 | $2.00 | — |
@@ -37,8 +36,8 @@
 | Display cable | — | 1 | $5.00 | $5.00 | — |
 | Power cable | — | 1 | $4.00 | $4.00 | — |
 | Inter-layer connector pairs | — | 3 | $5.00 | $15.00 | — |
-| **Parts subtotal** | — | — | — | **$126.55** | — |
+| **Parts subtotal** | — | — | — | **$124.75** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$126.55** | — |
+| **Total** | — | — | — | **$124.75** | — |
 
-**$61.55 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$59.75 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
