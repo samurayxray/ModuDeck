@@ -1,4 +1,8 @@
-# ModuDeck electrical project — revision 0.1
+# ModuDeck electrical project
+
+Latest circuit drawings: [revision 0.2](CIRCUITS.md). S1 revision 0.2 uses an external 10 kΩ button pull-up and supersedes the internal pull-up description below.
+
+## Architecture notes — revision 0.1
 Date: 2026-10-02. Preliminary design, not a validated PCB or build-ready power system.
 
 ## Scope and architecture
