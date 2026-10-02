@@ -35,15 +35,14 @@
 | Compatible main display | — | 1 | $65.00 | $65.00 | — |
 | Adafruit Mini Chiclet USB Keyboard 1736 - candidate | — | 1 | $9.95 | $9.95 | — |
 | USB touchpad | — | 1 | $20.00 | $20.00 | — |
-| Small phone or cellular solution | — | 1 | $50.00 | $50.00 | — |
 | USB hub | — | 1 | $12.00 | $12.00 | — |
 | PiShop 5.1V 3A USB-C supply - candidate | — | 1 | $11.95 | $11.95 | — |
 | Short USB data cables | — | 1 | $8.00 | $8.00 | — |
 | Display cable | — | 1 | $5.00 | $5.00 | — |
 | Power cable | — | 1 | $4.00 | $4.00 | — |
 | Inter-layer connector pairs | — | 3 | $5.00 | $15.00 | — |
-| **Parts subtotal** | — | — | — | **$341.00** | — |
+| **Parts subtotal** | — | — | — | **$291.00** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$341.00** | — |
+| **Total** | — | — | — | **$291.00** | — |
 
-**$276.00 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$226.00 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
