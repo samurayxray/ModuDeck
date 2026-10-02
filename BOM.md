@@ -31,13 +31,12 @@
 | M3 screws nuts and threaded inserts | — | 1 | $8.00 | $8.00 | — |
 | Rubber foot pads | — | 4 | $0.50 | $2.00 | — |
 | Adafruit Mini Chiclet USB Keyboard 1736 - candidate | — | 1 | $9.95 | $9.95 | — |
-| USB hub | — | 1 | $12.00 | $12.00 | — |
 | Short USB data cables | — | 1 | $8.00 | $8.00 | — |
 | Display cable | — | 1 | $5.00 | $5.00 | — |
 | Power cable | — | 1 | $4.00 | $4.00 | — |
 | Inter-layer connector pairs | — | 3 | $5.00 | $15.00 | — |
-| **Parts subtotal** | — | — | — | **$124.75** | — |
+| **Parts subtotal** | — | — | — | **$112.75** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$124.75** | — |
+| **Total** | — | — | — | **$112.75** | — |
 
-**$59.75 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$47.75 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
