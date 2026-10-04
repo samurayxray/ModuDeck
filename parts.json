@@ -3,102 +3,149 @@
     "id": "01-pc-case",
     "name": "Scocca piano PC",
     "role": "Contiene computer e comandi; sostiene lo schermo.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "02-display-frame",
     "name": "Cornice schermo",
     "role": "Sostiene e protegge il display.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "03-display",
     "name": "Display principale",
     "role": "Mostra desktop e programmi.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "component placeholder - not a functional printed part"
   },
   {
     "id": "04-keyboard",
     "name": "Tastiera",
     "role": "Inserimento del testo.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "component placeholder - not a functional printed part"
   },
   {
     "id": "05-touchpad-flap",
     "name": "Touchpad",
     "role": "Puntatore USB con supporto fisso; modello reale da scegliere.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "component placeholder - not a functional printed part"
   },
   {
     "id": "08-hinge",
     "name": "Cerniera schermo",
     "role": "Apertura del display.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "component placeholder - not a functional printed part"
   },
   {
     "id": "11-battery-tray",
     "name": "Piano vuoto basso",
     "role": "Vassoio generico per espansioni future, senza elettronica.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "13-storage-tray",
     "name": "Piano vuoto medio",
     "role": "Vassoio generico per espansioni future, senza elettronica.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "15-interfloor-connector",
     "name": "Connettore tra piani",
     "role": "Dati e alimentazione; bus e pinout da definire.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "component placeholder - not a functional printed part"
   },
   {
     "id": "16-rear-panel",
     "name": "Pannello posteriore",
     "role": "Supporto porte, alimentazione e antenne.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "18-side-screw",
     "name": "Vite laterale indicativa",
     "role": "Fissaggio; sagoma senza filettatura.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "component placeholder - not a functional printed part"
   },
   {
     "id": "19-computer-board",
     "name": "Scheda computer indicativa",
     "role": "Sistema operativo e programmi.",
-    "status": "Concept: quote provvisorie, componente reale da definire"
+    "status": "Concept: quote provvisorie, componente reale da definire",
+    "fabrication_class": "component placeholder - not a functional printed part"
   },
   {
     "id": "21-empty-tray",
     "name": "Piano vuoto alto",
     "role": "Vassoio generico con passaggi posteriori per cavi.",
-    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico.",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "22-alignment-guide",
     "name": "Guida di allineamento",
     "role": "Allinea i piani; tolleranze da verificare.",
-    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico.",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "23-cable-clamp",
     "name": "Fermacavo",
     "role": "Sostiene i cavi esterni senza caricare le prese.",
-    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico.",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "24-foot",
     "name": "Piedino",
     "role": "Sostiene il fondo; gomma da aggiungere.",
-    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico.",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   },
   {
     "id": "25-handle",
     "name": "Maniglia e attacchi",
     "role": "Forma preliminare; carico e perni metallici da verificare.",
-    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico."
+    "status": "Concept: quote provvisorie; nessuna validazione per stampa o carico.",
+    "fabrication_class": "legacy printable concept",
+    "unit_price_eur": 0,
+    "delivery_by": "Program provider per owner",
+    "selected_for_current_build": false
   }
 ]

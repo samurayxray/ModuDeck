@@ -1,22 +1,22 @@
 part,quantity,unit_price_usd,vendor_url,type,status
-01-pc-lower-shell,1,0,,3D printed,No-charge printing assumption; preliminary fit
-02-top-deck-blank,1,0,,3D printed,No-charge printing assumption; preliminary fit
-03-display-back,1,0,,3D printed,No-charge printing assumption; preliminary fit
-04-display-frame,1,0,,3D printed,No-charge printing assumption; preliminary fit
-05-keyboard-mount-rail,2,0,,3D printed,No-charge printing assumption; preliminary fit
-06-touchpad-support,1,0,,3D printed,No-charge printing assumption; preliminary fit
-07-board-mount-rail,2,0,,3D printed,No-charge printing assumption; preliminary fit
-08-board-standoff,8,0,,3D printed,No-charge printing assumption; preliminary fit
-09-empty-tray-lower,1,0,,3D printed,No-charge printing assumption; preliminary fit
-10-empty-tray-middle,1,0,,3D printed,No-charge printing assumption; preliminary fit
-11-empty-tray-upper,1,0,,3D printed,No-charge printing assumption; preliminary fit
-12-rear-cable-panel,3,0,,3D printed,No-charge printing assumption; preliminary fit
-13-alignment-guide,12,0,,3D printed,No-charge printing assumption; preliminary fit
-14-cable-clamp,4,0,,3D printed,No-charge printing assumption; preliminary fit
-15-foot,4,0,,3D printed,No-charge printing assumption; preliminary fit
-16-side-joining-tab,12,0,,3D printed,No-charge printing assumption; preliminary fit
-17-handle,1,0,,3D printed,No-charge printing assumption; preliminary fit
-18-hinge-mount-block,2,0,,3D printed,No-charge printing assumption; preliminary fit
+01-pc-lower-shell,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+02-top-deck-blank,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+03-display-back,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+04-display-frame,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+05-keyboard-mount-rail,2,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+06-touchpad-support,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+07-board-mount-rail,2,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+08-board-standoff,8,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+09-empty-tray-lower,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+10-empty-tray-middle,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+11-empty-tray-upper,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+12-rear-cable-panel,3,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+13-alignment-guide,12,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+14-cable-clamp,4,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+15-foot,4,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+16-side-joining-tab,12,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+17-handle,1,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
+18-hinge-mount-block,2,0,,3D printed,Program provider prints and sends per owner; provider shipping cost unknown; fit pending
 ThinkPad donor motherboard and cooling,1,0,,Recovered,Owner donor; operation and reuse unverified
 Original display and cable,1,0,,Recovered,Owner donor; operation and reuse unverified
 Original keyboard and cable,1,0,,Recovered,Owner donor; operation and reuse unverified
