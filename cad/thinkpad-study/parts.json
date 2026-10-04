@@ -1,0 +1,110 @@
+[
+  {
+    "name": "01-pc-lower-shell",
+    "quantity": 1,
+    "price": 0,
+    "note": "Main donor enclosure; board holes and ventilation still to measure"
+  },
+  {
+    "name": "02-top-deck-blank",
+    "quantity": 1,
+    "price": 0,
+    "note": "Blank deck; keyboard and touchpad cutouts intentionally pending"
+  },
+  {
+    "name": "03-display-back",
+    "quantity": 1,
+    "price": 0,
+    "note": "Provisional display housing; panel dimensions pending"
+  },
+  {
+    "name": "04-display-frame",
+    "quantity": 1,
+    "price": 0,
+    "note": "Provisional frame; active display area not measured"
+  },
+  {
+    "name": "05-keyboard-mount-rail",
+    "quantity": 2,
+    "price": 0,
+    "note": "Adjustable mounting rail; keyboard support to measure"
+  },
+  {
+    "name": "06-touchpad-support",
+    "quantity": 1,
+    "price": 0,
+    "note": "Generic touchpad platform; original module fit pending"
+  },
+  {
+    "name": "07-board-mount-rail",
+    "quantity": 2,
+    "price": 0,
+    "note": "Generic rail; retain original mounting pattern after measurement"
+  },
+  {
+    "name": "08-board-standoff",
+    "quantity": 8,
+    "price": 0,
+    "note": "Generic spacer; quantity and height pending"
+  },
+  {
+    "name": "09-empty-tray-lower",
+    "quantity": 1,
+    "price": 0,
+    "note": "Empty bottom layer"
+  },
+  {
+    "name": "10-empty-tray-middle",
+    "quantity": 1,
+    "price": 0,
+    "note": "Empty middle layer"
+  },
+  {
+    "name": "11-empty-tray-upper",
+    "quantity": 1,
+    "price": 0,
+    "note": "Empty top layer"
+  },
+  {
+    "name": "12-rear-cable-panel",
+    "quantity": 3,
+    "price": 0,
+    "note": "Rear removable cable opening; fasteners require mating features"
+  },
+  {
+    "name": "13-alignment-guide",
+    "quantity": 12,
+    "price": 0,
+    "note": "Separate alignment block; mating seats to adapt"
+  },
+  {
+    "name": "14-cable-clamp",
+    "quantity": 4,
+    "price": 0,
+    "note": "Cable saddle; cable diameter to confirm"
+  },
+  {
+    "name": "15-foot",
+    "quantity": 4,
+    "price": 0,
+    "note": "Foot requires rubber pad"
+  },
+  {
+    "name": "16-side-joining-tab",
+    "quantity": 12,
+    "price": 0,
+    "note": "External join tab; mating hole positions pending"
+  },
+  {
+    "name": "17-handle",
+    "quantity": 1,
+    "price": 0,
+    "note": "Concept carry grip; NOT load tested"
+  },
+  {
+    "name": "18-hinge-mount-block",
+    "quantity": 2,
+    "price": 0,
+    "note": "Mount blank for original metal hinges; drilling to measure"
+  }
+]
