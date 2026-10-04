@@ -23,3 +23,12 @@ See cad/thinkpad-study. 370x240mm envelope provisional. Sources and STL are layo
 With AI assistance, I prepared a preliminary set of 18 separate parametric 3D parts for ModuDeck using a provisional 370 by 240 mm envelope. The set includes computer enclosure blanks, display housing, mounting supports, three empty stackable trays, rear access panels, cable clamps and feet. I produced previews from the actual STL meshes and an offline viewer for inspecting each part. I also revised the planning BOM around a recovered ThinkPad donor, removing the separate Raspberry Pi purchase and recording printed parts at zero. The adapter is still unidentified and the donor has not been tested. Final cutouts, cooling clearances and mounting positions require measurements before printing.
 
 Use this draft only if it reflects your work; enter actual participant time, not an assumed three-hour duration.
+
+## RAM and Amazon candidate update — 2026-10-04
+User candidate link: https://amzn.eu/d/0f1HsuLL . Short link could not be resolved: product identity, price, connector and shipping are NOT verified. It is retained for review, not approved as a compatible purchase.
+
+Lenovo E545 specifications list DDR3L-1600 PC3-12800, two 204-pin SO-DIMM slots, 16GB maximum. DDR4 is incompatible if this donor is E545. Exact donor identification is still pending. Inspect existing RAM first: reuse at acquisition cost 0; upgrade is optional and not priced. Manufacturer source: https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_E545/ThinkPad_E545_Spec.PDF
+
+Shipping is a separate unknown checkout cost in BOM.csv. The earlier EUR planning allowance of 10 is included in the 60 EUR ceiling, not a verified shipping quote. RAM is not included in that ceiling: to remain strictly under 69 EUR with all previous allowances unchanged, an optional RAM purchase must cost less than 9 EUR; otherwise reduce other actual costs or defer RAM. Do not claim a final total until item and shipping prices are supplied.
+
+The official E545 external dimensions are 377x245mm; the owner's 370x240 estimate and existing CAD remain provisional and may be undersized. This update does not certify mechanical fit.
