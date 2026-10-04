@@ -1,28 +1,28 @@
 part,quantity,unit_price_usd,vendor_url,type,status
-PC lower enclosure,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-PC top deck and keyboard support,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Display back cover,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Display frame,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Fixed touchpad support,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Empty stackable tray - lower,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Empty stackable tray - middle,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Empty stackable tray - upper,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Rear cable access panels,3,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Alignment guides,12,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Cable clamps,4,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Feet,4,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Carry handle and mounting brackets,1,0,,3D printed,Printing provided at no charge per project owner; fit and availability to confirm
-Display metal hinges,1,6.00,,Purchased hardware,ESTIMATE ONLY - Set - type and quantity to select
-Metal handle pivot pins,2,0.75,,Purchased hardware,ESTIMATE ONLY - Size to select
-M3 screws nuts and threaded inserts,1,8.00,,Purchased hardware,ESTIMATE ONLY - Set - lengths and quantities to size
-Rubber foot pads,4,0.50,,Purchased hardware,ESTIMATE ONLY - To select
-Raspberry Pi 4 Model B 2GB - candidate,1,67.50,https://www.pishop.us/product/raspberry-pi-4-model-b-2gb/,Purchased electronics,Listed USD price checked 2026-10-01 - in stock - US vendor - compatibility and shipping to Italy to verify
-Compatible main display,1,65.00,,Purchased electronics,ESTIMATE ONLY - Model to select
-Adafruit Mini Chiclet USB Keyboard 1736 - candidate,1,9.95,https://www.adafruit.com/product/1736,Purchased electronics,Listed USD price checked 2026-10-01 - in stock - 285x123x22mm requires CAD redesign
-USB touchpad,1,20.00,,Purchased electronics,ESTIMATE ONLY - Model to select
-USB hub,1,12.00,,Purchased electronics,ESTIMATE ONLY - Ports and power to select
-PiShop 5.1V 3A USB-C supply - candidate,1,11.95,https://www.pishop.us/product/usb-c-power-supply-5-1v-3-0a-ul-listed-on-off-switch/,Purchased electronics,Listed USD price checked 2026-10-01 - in stock - Pi4 only - plug type and Italy shipping to verify
-Short USB data cables,1,8.00,,Purchased cables,ESTIMATE ONLY - Set - lengths and quantity to select
-Display cable,1,5.00,,Purchased cables,ESTIMATE ONLY - Interface and length to select
-Power cable,1,4.00,,Purchased cables,ESTIMATE ONLY - Connector and rating to select
-Inter-layer connector pairs,3,5.00,,Purchased connectors,ESTIMATE ONLY - Concept only - pinout and rating undefined
+01-pc-lower-shell,1,0,,3D printed,No-charge printing assumption; preliminary fit
+02-top-deck-blank,1,0,,3D printed,No-charge printing assumption; preliminary fit
+03-display-back,1,0,,3D printed,No-charge printing assumption; preliminary fit
+04-display-frame,1,0,,3D printed,No-charge printing assumption; preliminary fit
+05-keyboard-mount-rail,2,0,,3D printed,No-charge printing assumption; preliminary fit
+06-touchpad-support,1,0,,3D printed,No-charge printing assumption; preliminary fit
+07-board-mount-rail,2,0,,3D printed,No-charge printing assumption; preliminary fit
+08-board-standoff,8,0,,3D printed,No-charge printing assumption; preliminary fit
+09-empty-tray-lower,1,0,,3D printed,No-charge printing assumption; preliminary fit
+10-empty-tray-middle,1,0,,3D printed,No-charge printing assumption; preliminary fit
+11-empty-tray-upper,1,0,,3D printed,No-charge printing assumption; preliminary fit
+12-rear-cable-panel,3,0,,3D printed,No-charge printing assumption; preliminary fit
+13-alignment-guide,12,0,,3D printed,No-charge printing assumption; preliminary fit
+14-cable-clamp,4,0,,3D printed,No-charge printing assumption; preliminary fit
+15-foot,4,0,,3D printed,No-charge printing assumption; preliminary fit
+16-side-joining-tab,12,0,,3D printed,No-charge printing assumption; preliminary fit
+17-handle,1,0,,3D printed,No-charge printing assumption; preliminary fit
+18-hinge-mount-block,2,0,,3D printed,No-charge printing assumption; preliminary fit
+ThinkPad donor motherboard and cooling,1,0,,Recovered,Owner donor; operation and reuse unverified
+Original display and cable,1,0,,Recovered,Owner donor; operation and reuse unverified
+Original keyboard and cable,1,0,,Recovered,Owner donor; operation and reuse unverified
+Original touchpad and cable,1,0,,Recovered,Owner donor; operation and reuse unverified
+Original metal display hinges,1,0,,Recovered,Owner donor; operation and reuse unverified
+Compatible ThinkPad power adapter,1,,,Purchased,Model quantity vendor and price pending; do not import blank as free
+M3 screws nuts washers and inserts,1,,,Purchased,Model quantity vendor and price pending; do not import blank as free
+Rubber foot pads,1,,,Purchased,Model quantity vendor and price pending; do not import blank as free
+Cable ties and USB data cables,1,,,Purchased,Model quantity vendor and price pending; do not import blank as free
