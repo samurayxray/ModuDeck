@@ -42,7 +42,7 @@
 | [AKYGA Plug for Universal Notebook Adapter AK-ND-C12 USB-C / 7,9 x 5,5 mm + Pin](https://www.amazon.it/gp/product/B0C3W3YWZR/ref=ox_sc_act_title_3?smid=A11IL2PNWYJU7H&psc=1) | charging the pc | 1 | $4.99 | $4.99 | [akiga](https://www.amazon.it/gp/product/B0C3W3YWZR/ref=ox_sc_act_title_3?smid=A11IL2PNWYJU7H&psc=1) |
 | [8GB DDR3 Laptop RAM Memoria 1866Mhz PC3-14900 2RX8 204 Pin 1.35V SODIMM Per Laptop Memory Ram Accessori di Ricambio](https://www.amazon.it/gp/product/B0DSGF23NH/ref=ox_sc_act_title_4?smid=AYHX4QCJIEJ66&psc=1) | ram ( idk if is real | 1 | $18.99 | $18.99 | [jrifedptry](https://www.amazon.it/gp/product/B0DSGF23NH/ref=ox_sc_act_title_4?smid=AYHX4QCJIEJ66&psc=1) |
 | **Parts subtotal** | — | — | — | **$53.76** | — |
-| **Tax & shipping** | — | — | — | **$12.00** | — |
-| **Total** | — | — | — | **$65.76** | — |
+| **Tax & shipping** | — | — | — | **$11.00** | — |
+| **Total** | — | — | — | **$64.76** | — |
 
-**$0.76 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$0.24 left of the tier's funding.
