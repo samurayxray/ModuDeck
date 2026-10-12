@@ -1,0 +1,135 @@
+[
+  {
+    "args": [
+      "sch",
+      "export",
+      "pdf",
+      "-o",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\schematic.pdf",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\ModuDeck-Module-Monitor.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "Tracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\schematic.pdf\".\nFatto.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "svg",
+      "-o",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\svg",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\ModuDeck-Module-Monitor.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "Tracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\svg\\ModuDeck-Module-Monitor.svg\".\nFatto.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\netlist.xml",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\ModuDeck-Module-Monitor.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "gerbers",
+      "-o",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers",
+      "--layers",
+      "F.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\ModuDeck-Module-Monitor.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Tracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-F_Cu.gtl\".\nTracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-B_Cu.gbl\".\nTracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-F_Silkscreen.gto\".\nTracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-B_Silkscreen.gbo\".\nTracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-F_Mask.gts\".\nTracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-B_Mask.gbs\".\nTracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-Edge_Cuts.gm1\".\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "drill",
+      "-o",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers",
+      "--format",
+      "excellon",
+      "--excellon-separate-th",
+      "--generate-map",
+      "--generate-report",
+      "--map-format",
+      "pdf",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\ModuDeck-Module-Monitor.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Creato file 'E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-PTH.drl'\nCreato file 'E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-NPTH.drl'\nCreato file 'E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-PTH-drl_map.pdf'.\nCreato file 'E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\gerbers\\ModuDeck-Module-Monitor-NPTH-drl_map.pdf'.\nFatto.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "svg",
+      "-o",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\svg\\pcb-top.svg",
+      "--mode-single",
+      "--layers",
+      "F.Cu,F.SilkS,Edge.Cuts",
+      "--page-size-mode",
+      "2",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\ModuDeck-Module-Monitor.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Tracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\svg\\pcb-top.svg\".\nFatto.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "svg",
+      "-o",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\svg\\pcb-bottom.svg",
+      "--mode-single",
+      "--layers",
+      "B.Cu,B.SilkS,Edge.Cuts",
+      "--mirror",
+      "--page-size-mode",
+      "2",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\ModuDeck-Module-Monitor.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Tracciato su \"E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\svg\\pcb-bottom.svg\".\nFatto.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "render",
+      "--width",
+      "2000",
+      "--height",
+      "1400",
+      "--rotate",
+      "35,0,25",
+      "--background",
+      "opaque",
+      "-o",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\exports\\images\\06-board-3d.png",
+      "E:\\moduldeck\\ModuDeck-Module-Monitor\\ModuDeck-Module-Monitor.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Caricamento...\nCrea contorni scheda\n\nCrea strati\nCrea piste e via\nCrea zone\nCrea gli strati tecnici\nCrea strato tecnico 11\nCrea strato tecnico 9\nCrea strato tecnico 15\nCrea strato tecnico 13\nCrea strato tecnico 7\nCrea strato tecnico 5\nCrea strato tecnico 3\nCrea strato tecnico 1\nCrea strato tecnico 17\nCrea strato tecnico 19\nCrea strato tecnico 21\nCrea strato tecnico 23\nCrea strato tecnico 39\nCrea strato tecnico 41\nCrea strato tecnico 43\nCrea strato tecnico 45\nCrea strato tecnico 47\nCrea strato tecnico 49\nCrea strato tecnico 51\nCrea strato tecnico 53\nCrea strato tecnico 55\nCrea strato tecnico 57\nCrea strato tecnico 59\nCrea strato tecnico 61\nCrea strato tecnico 63\nCrea strato tecnico 65\nCrea strato tecnico 67\nCrea strato tecnico 69\nCrea strato tecnico 71\nCrea strato tecnico 73\nCrea strato tecnico 75\nCrea strato tecnico 77\nCrea strato tecnico 79\nCrea strato tecnico 81\nCrea strato tecnico 83\nCrea strato tecnico 85\nCrea strato tecnico 87\nCrea strato tecnico 89\nCrea strato tecnico 91\nCrea strato tecnico 93\nCrea strato tecnico 95\nCrea strato tecnico 97\nCrea strato tecnico 99\nCrea strato tecnico 101\nCrea strato tecnico 103\nCrea strato tecnico 105\nCrea strato tecnico 107\nCrea strato tecnico 109\nCrea strato tecnico 111\nCrea strato tecnico 113\nCrea strato tecnico 115\nCrea strato tecnico 117\nCrea strato tecnico 119\nCrea strato tecnico 121\nCrea strato tecnico 123\nCrea strato tecnico 125\nCrea strato tecnico 127\nSemplificazione poligoni degli strati in rame\nCalcolo metallizzazione rame\nSemplifica i contorni dei fori\nCrea BVH (Buried Via Holes) per fori e via\nCarica raytracing: scheda\nCarica raytracing: strati\nCaricamento modelli 3D...\nTempo di ricaricamento 0,263 s\nRendering: 70 \nRendering: 100 \nTempo di rendering 1,139 s\nImmagine di rendering 3D creata con successo\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.kicad_prl
+*.lck
+*.bak
+*-backups/
+.history/

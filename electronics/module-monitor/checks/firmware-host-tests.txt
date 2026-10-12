@@ -1,0 +1,11 @@
+test_bounce_and_exact_boundary (__main__.DebounceTests.test_bounce_and_exact_boundary) ... ok
+test_channels_are_independent (__main__.DebounceTests.test_channels_are_independent) ... ok
+test_timer_wrap (__main__.DebounceTests.test_timer_wrap) ... ok
+test_all_eight_states_and_led_mapping (__main__.LoopTests.test_all_eight_states_and_led_mapping) ... ok
+test_heartbeat_survives_wrap_without_duplicates (__main__.LoopTests.test_heartbeat_survives_wrap_without_duplicates) ... ok
+test_startup_closed_bounce_and_release (__main__.LoopTests.test_startup_closed_bounce_and_release) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.050s
+
+OK

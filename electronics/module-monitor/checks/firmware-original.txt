@@ -1,0 +1,1 @@
+PASS: bounce rejection, closure, release and timer wrap

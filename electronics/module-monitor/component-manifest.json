@@ -1,0 +1,105 @@
+{
+  "root_uuid": "a105629a-11df-47c7-ac39-eb9089d01e47",
+  "components": {
+    "A1": {
+      "uuid": "91be5fb3-1b7b-435f-af83-47bd101f7350",
+      "value": "RaspberryPi_Pico",
+      "footprint": "ModuleMonitor:RaspberryPi_Pico_Common_Socketed"
+    },
+    "R1": {
+      "uuid": "6d3dcb6b-7599-44c5-835c-5f82dcb79ad2",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R2": {
+      "uuid": "7cf981f2-c943-4d97-a722-63755b476aaa",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "J1": {
+      "uuid": "8fb5621c-4880-4475-a0cd-053e099e4163",
+      "value": "TRAY_1",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "R7": {
+      "uuid": "fa8c351e-594c-45eb-9c2f-cff1ff4516fd",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "D1": {
+      "uuid": "4797d47f-3878-4a25-8aaf-2c9df83dcf5b",
+      "value": "L-53LID RED",
+      "footprint": "LED_THT:LED_D5.0mm"
+    },
+    "R3": {
+      "uuid": "0631457f-9a98-418e-81c3-b16dbed24109",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R4": {
+      "uuid": "f80bd90b-901d-4dcd-8411-68d59518c37c",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "J2": {
+      "uuid": "c51fec5b-9929-46c3-894a-721d47fa0edc",
+      "value": "TRAY_2",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "R8": {
+      "uuid": "ebfd72f5-3e94-47bf-b7f3-54750a657529",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "D2": {
+      "uuid": "95404dd0-808d-4d78-ade6-5fbe6ee2355b",
+      "value": "L-53LID RED",
+      "footprint": "LED_THT:LED_D5.0mm"
+    },
+    "R5": {
+      "uuid": "25984be4-1637-4183-aeeb-43671673aa79",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R6": {
+      "uuid": "2bb82dfe-4814-43a4-a427-2e94c93897bc",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "J3": {
+      "uuid": "4e6a5b8c-d196-43f6-ac05-c45029022285",
+      "value": "TRAY_3",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "R9": {
+      "uuid": "d296262d-a13c-43ce-8ca2-6d1e62d5ada9",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "D3": {
+      "uuid": "db531587-10a7-412f-b9cb-d2a07127c42e",
+      "value": "L-53LID RED",
+      "footprint": "LED_THT:LED_D5.0mm"
+    },
+    "H1": {
+      "uuid": "a1a960c8-47a8-4db7-af24-a17129466075",
+      "value": "M3 NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    "H2": {
+      "uuid": "244ff624-355e-493a-a1b0-bea29bbd5825",
+      "value": "M3 NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    "H3": {
+      "uuid": "1d3a9200-c68b-4e87-bc47-8e26372aba6d",
+      "value": "M3 NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    "H4": {
+      "uuid": "842dbe82-2d36-42ba-8a27-58691c11c720",
+      "value": "M3 NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3"
+    }
+  }
+}

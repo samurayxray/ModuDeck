@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "functional_nets": 14,
+  "footprints": 20,
+  "board_mm": [
+    90,
+    70,
+    1.6
+  ],
+  "pico_rows_mm": 17.78,
+  "pico_pitch_mm": 2.54,
+  "tracks": 105,
+  "vias": 0,
+  "drill_hits": {
+    "PTH": 70,
+    "NPTH": 4
+  },
+  "hardware_tested": false,
+  "checks": [
+    "Exact required schematic topology",
+    "Schematic-to-board pad net agreement",
+    "Pico pin numbering and socket geometry",
+    "Unused supply pins isolated on carrier",
+    "Mounting holes and copper keepouts",
+    "Board outline, two copper layers and trace width",
+    "Gerber layer set and file endings",
+    "Excellon drill counts",
+    "Six exported image files"
+  ]
+}

@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\moduldeck\ModuDeck-Module-Monitor\ModuDeck-Module-Monitor.kicad_sch</source>
+    <date>2026-10-12T21:21:16</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ModuDeck Module Monitor - USB presence monitor</title>
+        <company>ModuDeck</company>
+        <rev>1.0</rev>
+        <date>2026-10-12</date>
+        <source>ModuDeck-Module-Monitor.kicad_sch</source>
+        <comment number="1" value="Original RP2040 Pico; removable in two 1x20 female sockets"/>
+        <comment number="2" value="Software checks only. Hardware and enclosure fit pending."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>RaspberryPi_Pico</value>
+      <footprint>ModuleMonitor:RaspberryPi_Pico_Common_Socketed</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Footprint">ModuleMonitor:RaspberryPi_Pico_Common_Socketed</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU_Module" part="RaspberryPi_Pico" description="Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="RP2350A M33 RISC-V Hazard3 usb"/>
+      <property name="ki_fp_filters" value="RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91be5fb3-1b7b-435f-af83-47bd101f7350</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="30"/>
+            <pin num="37"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="3"/>
+            <pin num="23"/>
+            <pin num="28"/>
+            <pin num="18"/>
+            <pin num="13"/>
+            <pin num="38"/>
+            <pin num="8"/>
+            <pin num="36"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="35"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="33"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>L-53LID RED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4797d47f-3878-4a25-8aaf-2c9df83dcf5b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>L-53LID RED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95404dd0-808d-4d78-ade6-5fbe6ee2355b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>L-53LID RED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db531587-10a7-412f-b9cb-d2a07127c42e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1a960c8-47a8-4db7-af24-a17129466075</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>244ff624-355e-493a-a1b0-bea29bbd5825</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d3a9200-c68b-4e87-bc47-8e26372aba6d</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>842dbe82-2d36-42ba-8a27-58691c11c720</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>TRAY_1</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fb5621c-4880-4475-a0cd-053e099e4163</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>TRAY_2</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c51fec5b-9929-46c3-894a-721d47fa0edc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>TRAY_3</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e6a5b8c-d196-43f6-ac05-c45029022285</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d3dcb6b-7599-44c5-835c-5f82dcb79ad2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cf981f2-c943-4d97-a722-63755b476aaa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0631457f-9a98-418e-81c3-b16dbed24109</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f80bd90b-901d-4dcd-8411-68d59518c37c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25984be4-1637-4183-aeeb-43671673aa79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bb82dfe-4814-43a4-a427-2e94c93897bc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa8c351e-594c-45eb-9c2f-cff1ff4516fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebfd72f5-3e94-47bf-b7f3-54750a657529</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ModuDeck-Module-Monitor"/>
+      <property name="Sheetfile" value="ModuDeck-Module-Monitor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d296262d-a13c-43ce-8ca2-6d1e62d5ada9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="RaspberryPi_Pico">
+      <description>Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2</description>
+      <docs>https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf</docs>
+      <footprints>
+        <fp>RaspberryPi?Pico?Common*</fp>
+        <fp>RaspberryPi?Pico?SMD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">RaspberryPi_Pico</field>
+        <field name="Footprint">Module:RaspberryPi_Pico_Common_Unspecified</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf</field>
+        <field name="Description">Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="passive"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_out"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_out"/>
+        <pin num="37" name="3V3_EN" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>${KICAD10_SYMBOL_DIR}/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="A1" pin="36" pinfunction="3V3_36" pintype="power_out"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND" class="Default">
+      <node ref="A1" pin="13" pinfunction="GND_13" pintype="passive"/>
+      <node ref="A1" pin="18" pinfunction="GND_18" pintype="passive"/>
+      <node ref="A1" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="A1" pin="28" pinfunction="GND_28" pintype="passive"/>
+      <node ref="A1" pin="3" pinfunction="GND_3" pintype="power_out"/>
+      <node ref="A1" pin="38" pinfunction="GND_38" pintype="passive"/>
+      <node ref="A1" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/IN1" class="Default">
+      <node ref="A1" pin="4" pinfunction="GPIO2_4" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/IN2" class="Default">
+      <node ref="A1" pin="5" pinfunction="GPIO3_5" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/IN3" class="Default">
+      <node ref="A1" pin="6" pinfunction="GPIO4_6" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/LED1" class="Default">
+      <node ref="A1" pin="14" pinfunction="GPIO10_14" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/LED2" class="Default">
+      <node ref="A1" pin="15" pinfunction="GPIO11_15" pintype="bidirectional"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/LED3" class="Default">
+      <node ref="A1" pin="16" pinfunction="GPIO12_16" pintype="bidirectional"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D2-A)" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D3-A)" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J1-Pin_1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J2-Pin_1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J3-Pin_1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(A1-3V3_EN-Pad37)" class="Default">
+      <node ref="A1" pin="37" pinfunction="3V3_EN_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(A1-ADC_VREF-Pad35)" class="Default">
+      <node ref="A1" pin="35" pinfunction="ADC_VREF_35" pintype="power_in+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(A1-AGND-Pad33)" class="Default">
+      <node ref="A1" pin="33" pinfunction="AGND_33" pintype="power_out+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(A1-GPIO0-Pad1)" class="Default">
+      <node ref="A1" pin="1" pinfunction="GPIO0_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(A1-GPIO1-Pad2)" class="Default">
+      <node ref="A1" pin="2" pinfunction="GPIO1_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(A1-GPIO5-Pad7)" class="Default">
+      <node ref="A1" pin="7" pinfunction="GPIO5_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(A1-GPIO6-Pad9)" class="Default">
+      <node ref="A1" pin="9" pinfunction="GPIO6_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(A1-GPIO7-Pad10)" class="Default">
+      <node ref="A1" pin="10" pinfunction="GPIO7_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(A1-GPIO8-Pad11)" class="Default">
+      <node ref="A1" pin="11" pinfunction="GPIO8_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(A1-GPIO9-Pad12)" class="Default">
+      <node ref="A1" pin="12" pinfunction="GPIO9_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(A1-GPIO13-Pad17)" class="Default">
+      <node ref="A1" pin="17" pinfunction="GPIO13_17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A1-GPIO14-Pad19)" class="Default">
+      <node ref="A1" pin="19" pinfunction="GPIO14_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(A1-GPIO15-Pad20)" class="Default">
+      <node ref="A1" pin="20" pinfunction="GPIO15_20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A1-GPIO16-Pad21)" class="Default">
+      <node ref="A1" pin="21" pinfunction="GPIO16_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A1-GPIO17-Pad22)" class="Default">
+      <node ref="A1" pin="22" pinfunction="GPIO17_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A1-GPIO18-Pad24)" class="Default">
+      <node ref="A1" pin="24" pinfunction="GPIO18_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(A1-GPIO19-Pad25)" class="Default">
+      <node ref="A1" pin="25" pinfunction="GPIO19_25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(A1-GPIO20-Pad26)" class="Default">
+      <node ref="A1" pin="26" pinfunction="GPIO20_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(A1-GPIO21-Pad27)" class="Default">
+      <node ref="A1" pin="27" pinfunction="GPIO21_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(A1-GPIO22-Pad29)" class="Default">
+      <node ref="A1" pin="29" pinfunction="GPIO22_29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(A1-GPIO26_ADC0-Pad31)" class="Default">
+      <node ref="A1" pin="31" pinfunction="GPIO26_ADC0_31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(A1-GPIO27_ADC1-Pad32)" class="Default">
+      <node ref="A1" pin="32" pinfunction="GPIO27_ADC1_32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(A1-GPIO28_ADC2-Pad34)" class="Default">
+      <node ref="A1" pin="34" pinfunction="GPIO28_ADC2_34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(A1-RUN-Pad30)" class="Default">
+      <node ref="A1" pin="30" pinfunction="RUN_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(A1-VBUS-Pad40)" class="Default">
+      <node ref="A1" pin="40" pinfunction="VBUS_40" pintype="power_out+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(A1-VSYS-Pad39)" class="Default">
+      <node ref="A1" pin="39" pinfunction="VSYS_39" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>

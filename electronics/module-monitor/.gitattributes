@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png -text
+*.pdf -text
+*.zip -text
+*.step -text -diff
+exports/** whitespace=-blank-at-eol
+models/** whitespace=-blank-at-eol

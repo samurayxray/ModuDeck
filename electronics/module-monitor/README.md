@@ -1,50 +1,69 @@
-# ModuDeck Module Monitor — preliminary design
+# ModuDeck Module Monitor — routed KiCad design
 
-An AI-assisted, USB-powered presence monitor for three stackable trays. This is a new electronics subproject within ModuDeck. The original ThinkPad motherboard is reused, not redesigned.
+This folder is the **canonical editable electronics project**. Open [ModuDeck-Module-Monitor.kicad_pro](ModuDeck-Module-Monitor.kicad_pro) in **KiCad 10.0.7 or later**. The completed schematic and routed two-layer PCB are present here. Old KiCad files at the repository root are retained as historical work and must not be used for manufacturing this revision. The main repository's `JOURNAL.md` and `BOM.md` were not modified.
 
-## Status
-Architecture, connection plan, firmware draft and conceptual PCB placement are provided. Firmware debounce logic passed host-side tests for bouncing contacts, release and timer wrap. No hardware test has been performed. These drawings are design documentation, not photographs of a build. There are no verified KiCad board/schematic or manufacturing files in this package yet. Do not submit the placement illustration as a routed PCB.
+![PCB 3D cover](exports/cover.png)
+
+## Completed work and limits
+
+The existing schematic was completed from its first input channel. The initially empty board now contains a 90 x 70mm two-layer layout, three dry-contact inputs, three red LED outputs, two removable Pico socket rows, four M3 holes, screw copper keepouts and ground pours on both faces. All carrier electrical parts are through-hole. The original RP2040 Pico remains a removable assembled module. USB and BOOTSEL are accessible from above.
+
+**ERC: 0 errors, 0 warnings. DRC: 0 violations, 0 unconnected items, 0 schematic-parity issues.** Independent net/pad/geometry/export assertions passed. The existing firmware test and six additional host simulation tests passed. These are software checks. **No fabricated PCB, physical assembly, Pico hardware test, real USB serial test, switch actuation test or enclosure fit test has been performed.** See [CHECKS.md](CHECKS.md) and raw reports in [checks/](checks/).
+
+The outline, mounting pattern and cable/headroom allowances are provisional because the bay has not been measured. See [MECHANICAL.md](MECHANICAL.md). Review physical fit and test a Pico before ordering production. No components or PCBs were ordered.
 
 ## Circuit
-Use an original Raspberry Pi Pico with a USB data cable to the PC. USB supplies the Pico; GPIO is 3.3 V. The monitor does not power trays, charge batteries or route peripheral USB data.
 
-Each of three inputs uses a 10 kohm resistor from Pico 3V3 OUT to its GPIO node, then a 1 kohm resistor between the GPIO node and connector pin 1. Connector pin 2 is ground. Wire the external microswitch NO terminal to pin 1 and COM to pin 2. The fitted tray closes the switch. A 30 ms firmware debounce confirms presence; opening the switch reports absence. A broken cable also reports absence, so this is not a safety interlock or module-type identifier.
+| Channel | Input GPIO / Pico pin | Pull-up | Series to J pin 1 | LED GPIO / Pico pin | LED resistor |
+|---|---|---|---|---|---|
+| Tray 1 | GP2 / 4 | R1 10k to 3V3 | R2 1k / J1 | GP10 / 14 | R7 1k / D1 |
+| Tray 2 | GP3 / 5 | R3 10k to 3V3 | R4 1k / J2 | GP11 / 15 | R8 1k / D2 |
+| Tray 3 | GP4 / 6 | R5 10k to 3V3 | R6 1k / J3 | GP12 / 16 | R9 1k / D3 |
 
-| Function | GPIO | Pico physical pin |
-|---|---|---|
-| Tray 1 input | GP2 | 4 |
-| Tray 2 input | GP3 | 5 |
-| Tray 3 input | GP4 | 6 |
-| LED 1 | GP10 | 14 |
-| LED 2 | GP11 | 15 |
-| LED 3 | GP12 | 16 |
-| Pull-up supply | 3V3 OUT | 36 |
-| Common ground | GND | 38 |
+Pico **pin 36 is 3V3 OUT**. All J pin 2 connections and LED cathodes share GND; the carrier connects Pico GND pins 3, 8, 13, 18, 23, 28 and 38. AGND 33 is unused on the carrier and referenced internally by Pico. VBUS 40, VSYS 39, ADC_VREF 35, 3V3_EN 37, RUN 30 and unused GPIOs have intentional no-connect markers. Their socket pads have no carrier traces.
 
-Each LED path is GPIO -> 1 kohm -> LED anode -> LED cathode -> GND. Use high-efficiency red LEDs; exact parts and footprints remain to be selected. Each closed input is approximately 3.3 V * 1k/(10k+1k) = 0.30 V. LED current is approximately (3.3 V - LED forward voltage)/1k, around 1.3 mA for a 2 V red LED.
+The external normally-open microswitch closes J pin 1 to J pin 2 when seated. GPIO -> 1k -> LED anode; cathode -> GND. D1-D3 pad 1 = K, pad 2 = A. Closed input voltage is nominally **0.30V**, approximately **0.328V** with worst-case 5% resistor tolerances at nominal 3.3V. RP2040 specifies VIL <= 0.8V and VIH >= 2.0V at IOVDD=3.3V. Open input is pulled to 3.3V. LED current is estimated at **1.3mA** for Vf=2.0V; these are calculations, not measurements.
 
-## Parts to source
-1 Pico with headers; 2 female 1x20 2.54 mm sockets; 3 normally-open microswitches; 3 two-pin connectors with mating cable plugs; 3 red LEDs; 6 x 1 kohm resistors; 3 x 10 kohm resistors; 1 micro-USB data cable; wire and prototype board. Prices and shipping have not been checked; do not enter zero for purchased items. Printed and recovered parts belong in the main mechanical BOM.
+The sole supply/data path is the original Pico micro-USB. No external power input, PC power output, battery connection or charger is added. This PCB observes contacts and does not power trays. A broken switch cable reports absent; presence cannot distinguish removal from cable failure.
 
-## Firmware
-Install appropriate official MicroPython firmware for the original Pico. Copy both firmware/logic.py and firmware/main.py to the Pico using Thonny. USB serial prints JSON with trays in order 1,2,3, on changes and once per second. Stop the running program before editing. Test with only the monitor connected, following the pin map; keep any laptop battery/power wiring separate.
+## Delivered files
 
-## Work session — target allocation, not logged work
-- 0–60 min: read the circuit, verify Pico pinout and explain each signal; choose actual component references.
-- 60–120 min: draw the circuit in KiCad, assign footprints and run ERC.
-- 120–180 min: place components, route the board and check connector clearances.
-- 180–240 min: run DRC, inspect a paper footprint print, test firmware on hardware if available and document unresolved issues.
-Record actual personal time, excluding unattended generation and breaks. Four images do not prove four hours. The supplied illustrations show the initial design; capture your own KiCad progress and test results during the session.
+- [Editable schematic](ModuDeck-Module-Monitor.kicad_sch) and [routed PCB](ModuDeck-Module-Monitor.kicad_pcb)
+- [Schematic PDF](exports/schematic.pdf)
+- [Gerber/Excellon ZIP](exports/ModuDeck-Module-Monitor-manufacturing.zip) and [uncompressed files/drill maps](exports/gerbers/)
+- [PCB symbol BOM](exports/pcb-bom.csv) and [expanded purchasing BOM](exports/purchasing-bom.csv), including sockets, headers, external parts, minimum quantities, links and price status
+- [Component and price notes](COMPONENTS.md), [mechanical assumptions](MECHANICAL.md), [checks](CHECKS.md)
+- [English completed-work description](COMPLETED-WORK.txt)
 
-## Required before fabrication
-Complete editable schematic and PCB; match selected connector/LED/switch datasheets; review GPIO and power nets; ERC/DRC; confirm mechanical fit and header orientation; validate firmware on a Pico; then generate and inspect Gerber and drill outputs.
+`fp-lib-table` registers project-local footprints. STEP models in `models/` use `${KIPRJMOD}` paths. Used symbol definitions are cached in the schematic; standard KiCad symbol libraries support library comparisons. The A1 assembly footprint contains both female 1x20 sockets, with original Pico numbering. [THIRD-PARTY.md](THIRD-PARTY.md) records library attribution.
+
+The manufacturing ZIP contains seven Gerbers (F/B copper, F/B mask, F/B silkscreen, Edge.Cuts), a Gerber job file and separate PTH/NPTH drills. It has **70 plated component holes, four 3.2mm non-plated mounting holes and no vias**. No stencil files are needed. File completeness and drill counts were checked; no fabricator CAM acceptance or quote was obtained.
+
+## Firmware and USB serial
+
+Install official MicroPython for **RPI_PICO / original RP2040 Pico**, then copy [firmware/main.py](firmware/main.py) and [firmware/logic.py](firmware/logic.py) to the Pico filesystem root. Existing firmware was retained and updated to disable internal pull-ups explicitly because this board supplies external 10k pull-ups. Inputs are active low with independent 30ms debounce and 5ms polling. GP10/11/12 light for confirmed presence. Startup starts absent until the debounce confirms a closed contact.
+
+RP2 MicroPython stdout uses USB CDC serial, shared with REPL. One newline-terminated JSON message is printed on startup, each confirmed change and once per second while unchanged: `{"type":"modudeck_presence","trays":[true,false,true]}`. Tray order is 1,2,3. Host readers should accept matching JSON and ignore REPL/startup banners. A heartbeat alone does not implement host disconnection handling. Ctrl-C exits the loop and turns off LEDs in `finally`. No UART is configured.
+
+Run `python test_logic.py` and `python test_firmware.py`. Simulations use fake GPIO/time objects to validate the actual main loop; they do not run on RP2040 or transmit through physical USB. Firmware deployment has not been performed on a Pico.
+
+## Six actual design images
+
+These are exported KiCad drawings/renders, **not hardware photos or AI-generated illustrations**. Bottom copper is mirrored for a solder-side view. Old conceptual images in `docs/01-architecture.png` through `docs/04-pcb-placement.png` remain historical planning illustrations.
+
+| Image | Source |
+|---|---|
+| [Full schematic](exports/images/01-schematic-complete.png) | Completed KiCad schematic PDF |
+| [Input detail](exports/images/02-input-detail.png) | PDF crop of all three inputs |
+| [LED detail](exports/images/03-led-detail.png) | PDF crop of all three LED paths |
+| [PCB top](exports/images/04-pcb-top.png) | F.Cu + F.SilkS + Edge.Cuts |
+| [PCB bottom](exports/images/05-pcb-bottom.png) | Mirrored B.Cu + B.SilkS + Edge.Cuts |
+| [3D view](exports/images/06-board-3d.png) | KiCad renderer with local STEP models, also `exports/cover.png` |
 
 ## Sources
-- https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
-- https://github.com/micropython/micropython/blob/master/docs/library/machine.Pin.rst
 
-## Documentation images
-![Architecture](docs/01-architecture.png)
-![Input channel](docs/02-input-circuit.png)
-![Pin map](docs/03-pin-map.png)
-![Placement concept](docs/04-pcb-placement.png)
+- [Official original Pico pinout](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf)
+- [Official Pico datasheet](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf), mechanical/pin allocation and powerchain sections
+- [Official RP2040 datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf), section 5.5.3.4, Table 625
+- [MicroPython RP2 quick reference](https://docs.micropython.org/en/latest/rp2/quickref.html) and [Pin API](https://docs.micropython.org/en/latest/library/machine.Pin.html)
+- Exact parts, drawings and seller links in [COMPONENTS.md](COMPONENTS.md) and the purchasing BOM
