@@ -1,6 +1,8 @@
 # ModuDeck
 A modular-plane portable computer concept — by Samuele aka samuray_xray
 
+![Module Monitor — existing KiCad 3D render](docs/images/06-board-3d.png)
+
 ## Project
 A laptop-style upper PC with a display, a fixed keyboard and a conventional fixed touchpad. Current scope: the PC and three empty full-footprint stackable layers, with cable access, side fasteners and connector placeholders. Drone and other expansion electronics are deferred.
 
@@ -28,6 +30,31 @@ On GitHub: **Actions → Build 3D models → Run workflow** creates a ZIP with s
 - [Personal journal](JOURNAL.md)
 
 The concept and initial sources were developed with AI assistance. Record only actual personal work and time in the journal; no funding or completion is declared.
-## Earlier concept sketch
-Historical sketch: it shows the removed phone/keypad and previous expansion ideas. Current CAD has no phone or dialing keypad. 
-<img width="1536" height="1024" alt="blueprint2" src="https://github.com/user-attachments/assets/1667dc44-f59c-4911-91a6-c5c131656df9" />
+
+## Module Monitor — KiCad exports
+
+[Editable KiCad project](electronics/module-monitor/ModuDeck-Module-Monitor.kicad_pro) · [Mechanical notes](electronics/module-monitor/MECHANICAL.md) · [Recorded checks](electronics/module-monitor/CHECKS.md)
+
+### Schematic — existing KiCad export
+
+![Schematic — existing KiCad export](docs/images/01-schematic-complete.png)
+
+### Inputs — schematic detail
+
+![Inputs — schematic detail](docs/images/02-input-detail.png)
+
+### LEDs — schematic detail
+
+![LEDs — schematic detail](docs/images/03-led-detail.png)
+
+### PCB — top view
+
+![PCB — top view](docs/images/04-pcb-top.png)
+
+### PCB — bottom view
+
+![PCB — bottom view](docs/images/05-pcb-bottom.png)
+
+### PCB — 3D render, not a hardware photograph
+
+![PCB — 3D render, not a hardware photograph](docs/images/06-board-3d.png)
