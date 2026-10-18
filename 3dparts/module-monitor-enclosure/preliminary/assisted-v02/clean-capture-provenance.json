@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-18",
+  "application": "Autodesk AutoCAD 2026",
+  "capture_tool": "@oai/sky get_window_state",
+  "processing": "Fresh real AutoCAD captures with QUOTE layer and UCS icon hidden; rectangular crops only. No generative editing.",
+  "geometry_status": "Preliminary assisted CAD; known PCB/boss interference remains; no physical tests.",
+  "original_drawings_and_exports_unchanged": true,
+  "original_annotated_images_preserved": "docs/images/module-monitor-enclosure-preliminary-v02-*.png",
+  "captures": [
+    {
+      "image": "docs/images/screenshot-organizzati/2-parte-3d/01-assieme.png",
+      "source_capture": "E:\\moduldeck\\backups\\enclosure-real-captures-no-text-20261018\\01-assieme.png",
+      "source_sha256": "29cf9f4ed0a9b71ff028a00f0361650b2e3c9dd51139b2c59ef6b6f38d91ec47",
+      "output_sha256": "082be7837b7c8b3913d5968f847e004e183a8951329ada8a42363bf90032be49",
+      "crop_left_top_right_bottom": [
+        300,
+        260,
+        900,
+        725
+      ]
+    },
+    {
+      "image": "docs/images/screenshot-organizzati/2-parte-3d/02-esploso.png",
+      "source_capture": "E:\\moduldeck\\backups\\enclosure-real-captures-no-text-20261018\\02-esploso.png",
+      "source_sha256": "294e81c3107229425c279c2a6b1b8ccc5f3ccaed9dccc557f09e65b5166117b1",
+      "output_sha256": "f97fd607ab5564be9fea76cb03a1b22af57a50dd6f2e89f8a4e3c1d17ab094e7",
+      "crop_left_top_right_bottom": [
+        350,
+        255,
+        840,
+        735
+      ]
+    },
+    {
+      "image": "docs/images/screenshot-organizzati/2-parte-3d/03-interno-con-PCB.png",
+      "source_capture": "E:\\moduldeck\\backups\\enclosure-real-captures-no-text-20261018\\03-interno-con-PCB.png",
+      "source_sha256": "f061db8d6458901dec846b07be244129c6bde81677851e0e7db79d48b2473c0c",
+      "output_sha256": "448401444e291994800f00ab14af95ea18857f9ac762fa37ff76748b76f61d69",
+      "crop_left_top_right_bottom": [
+        300,
+        270,
+        900,
+        725
+      ]
+    },
+    {
+      "image": "docs/images/screenshot-organizzati/2-parte-3d/04-base-aperta.png",
+      "source_capture": "E:\\moduldeck\\backups\\enclosure-real-captures-no-text-20261018\\04-base-aperta.png",
+      "source_sha256": "373d2e5f140b19a4ae3da4a9f62fd8677b7511a1e0fd5c4ea14a4b00a7bcd7e2",
+      "output_sha256": "78919f6d2dcac63bfe9086b75bf2f0e3140aeb711fa6f8a0e240c2ffa2157818",
+      "crop_left_top_right_bottom": [
+        220,
+        240,
+        920,
+        770
+      ]
+    },
+    {
+      "image": "docs/images/screenshot-organizzati/2-parte-3d/05-supporti-alto.png",
+      "source_capture": "E:\\moduldeck\\backups\\enclosure-real-captures-no-text-20261018\\05-supporti-alto.png",
+      "source_sha256": "81754c83787049994e7cbf32497cb5f1bf5f8b7ff605efa912ee06387749e216",
+      "output_sha256": "026725e248273abf746fa882d4071da19a639d68fcbbae53fea786297c239727",
+      "crop_left_top_right_bottom": [
+        260,
+        240,
+        880,
+        775
+      ]
+    },
+    {
+      "image": "docs/images/screenshot-organizzati/2-parte-3d/06-coperchio.png",
+      "source_capture": "E:\\moduldeck\\backups\\enclosure-real-captures-no-text-20261018\\06-coperchio.png",
+      "source_sha256": "ca3a28e90ad250396c83741aff350563771bd2af4af1c150c8552d0b442cb603",
+      "output_sha256": "704fe04598f581bfe04af35025a2c1d53c4b1b952d4fe5564e1c06eeb0b63c7a",
+      "crop_left_top_right_bottom": [
+        140,
+        240,
+        1000,
+        770
+      ]
+    },
+    {
+      "image": "docs/images/screenshot-organizzati/2-parte-3d/07-sezione.png",
+      "source_capture": "E:\\moduldeck\\backups\\enclosure-real-captures-no-text-20261018\\07-sezione-senza-testi.png",
+      "source_sha256": "a4b3764c26dd25262e768597a61ecd4703c0fef9c184e5910f56f5fce18c4f9d",
+      "output_sha256": "d0e27c711dcd92f6c944c22de8b007558c658a4a6cff1ec323c94b8f455dd42c",
+      "crop_left_top_right_bottom": [
+        255,
+        315,
+        1285,
+        630
+      ]
+    }
+  ]
+}
