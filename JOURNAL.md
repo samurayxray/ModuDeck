@@ -17,7 +17,7 @@
 1. [2026-10-01 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-01-all-the-work-for-this-stage-was-already-complete-)
 2. [2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-02-all-the-work-for-this-stage-was-already-complete-)
 3. [2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-02-all-the-work-for-this-stage-was-already-complete-)
-4. [2026-10-03 – With AI assistance, I reviewed the ModuDeck prototype budget and evaluated a Raspberry Pi 1 B+ candidate. I explored removable rear access panels, alignment guides for the three empty trays, and cable](#2026-10-03-with-ai-assistance-i-reviewed-the-modudeck-protot)
+4. [2026-10-03 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-03-all-the-work-for-this-stage-was-already-complete-)
 5. [2026-10-04 – I prepared 18 preliminary 3D parts for ModuDeck using a provisional 370 × 240 mm footprint. I created previews from the STL models and an offline viewer to inspect each component. The design includes](#2026-10-04-i-prepared-18-preliminary-3d-parts-for-modudeck-u)
 
 ## Design
@@ -62,17 +62,17 @@ All the work for this stage was already complete when I wrote the first entry, s
 
 ![module-monitor-enclosure-preliminary-v02-supports-top](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/3e11ae85faf671955a399fc579bd92cf951dfbac5b61466773efacec9a68c419.png)
 
-### 2026-10-03 – With AI assistance, I reviewed the ModuDeck prototype budget and evaluated a Raspberry Pi 1 B+ candidate. I explored removable rear access panels, alignment guides for the three empty trays, and cable
+### 2026-10-03 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad
 
 **3h**
 
-With AI assistance, I reviewed the ModuDeck prototype budget and evaluated a Raspberry Pi 1 B+ candidate. I explored removable rear access panels, alignment guides for the three empty trays, and cable strain relief. I documented zero-cost printing as a project assumption and separated the EUR budget from the platform’s USD funding limit. The images are concept proposals; mechanical fit and electronics still need validation.
+All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no additional work or extra hours.
 
-![newblue2](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/aff68db4e22b177e56501eec59d709cab213ed70cbf6be6d93b9e3a13881a573.png)
+![module-monitor-pcb-3d-oblique-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/e002f12d8dd83de624d98ea2d11355442f7f19424fe5afdf0a325d0fcb8dcc6b.png)
 
-![newblue1](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/f5bc648bb113a1d8e1047d733384f5eab88f0484b4b0371d85e074a0a095cad3.png)
+![module-monitor-pcb-3d-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/dac85117e05a416d17491418cd79a30d9c24f2fda9a529ae9e96dbeb57e9427f.png)
 
-![newblue](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/904a8a25d8234cbbf893a3effddfc81f9b08cde184ab14b77a0d6de140e7b321.png)
+![module-monitor-pcb-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83.png)
 
 ### 2026-10-04 – I prepared 18 preliminary 3D parts for ModuDeck using a provisional 370 × 240 mm footprint. I created previews from the STL models and an offline viewer to inspect each component. The design includes
 
