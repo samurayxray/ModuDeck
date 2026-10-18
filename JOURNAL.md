@@ -16,7 +16,7 @@
 
 1. [2026-10-01 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-01-all-the-work-for-this-stage-was-already-complete-)
 2. [2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-02-all-the-work-for-this-stage-was-already-complete-)
-3. [2026-10-02 – With my AI assistance made by me](#2026-10-02-with-my-ai-assistance-made-by-me)
+3. [2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-02-all-the-work-for-this-stage-was-already-complete-)
 4. [2026-10-03 – With AI assistance, I reviewed the ModuDeck prototype budget and evaluated a Raspberry Pi 1 B+ candidate. I explored removable rear access panels, alignment guides for the three empty trays, and cable](#2026-10-03-with-ai-assistance-i-reviewed-the-modudeck-protot)
 5. [2026-10-04 – I prepared 18 preliminary 3D parts for ModuDeck using a provisional 370 × 240 mm footprint. I created previews from the STL models and an offline viewer to inspect each component. The design includes](#2026-10-04-i-prepared-18-preliminary-3d-parts-for-modudeck-u)
 
@@ -46,23 +46,21 @@ All the work for this stage was already complete when I wrote the first entry, s
 
 ![module-monitor-pcb-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83.png)
 
-### 2026-10-02 – With my AI assistance made by me
+### 2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad
 
 **5h**
 
-With my AI assistance made by me
+All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no additional work or extra hours.
 
-, I documented the initial electrical design for ModuDeck after removing the phone and dialing keypad. The project now focuses on the computer, a fixed touchpad, and three empty stackable trays.
+![module-monitor-pcb-3d-oblique-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/e002f12d8dd83de624d98ea2d11355442f7f19424fe5afdf0a325d0fcb8dcc6b.png)
 
-I prepared five wiring drawings covering the overall system, USB connections, display cables, an optional Pico LED circuit, and a pushbutton circuit. The LED uses a 1 kΩ resistor, while the button uses a 10 kΩ pull-up resistor.
+![module-monitor-pcb-3d-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/dac85117e05a416d17491418cd79a30d9c24f2fda9a529ae9e96dbeb57e9427f.png)
 
-These are preliminary drawings, not tested hardware. The next steps are to select the exact display and USB hub, verify their power requirements, and test the circuits before integrating them into the enclosure.![circiito6](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/dfd8ea7724491564434c6bba5bb04216ca99900261044e36247b18b5bf284e5a.png)
+![module-monitor-pcb-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83.png)
 
-![circiito5](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/e67708934ea87d236864e96264081d62e3758c0cb66f241fdbbcc52825080a9c.png)
+![module-monitor-enclosure-preliminary-v02-lid](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/8b06c363956fdf5d0b7d15fd98c2ee8d6eca471de0b663fdaf29426a7a219dbe.png)
 
-![circiito4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/f034590af958017be457d5d877bd572feacfc3cc3f287f21ccf48afc4a6584d9.png)
-
-![circiito3](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/0af719a480a5587929a6e34db60af41a28f09725deb6f1fe5dd30c6e9f0bbc43.png)![circiito2](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ed4822db60497bae2f03b737c67c28a513497f19117baccd5c240a87ac53fd61.png)
+![module-monitor-enclosure-preliminary-v02-supports-top](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/3e11ae85faf671955a399fc579bd92cf951dfbac5b61466773efacec9a68c419.png)
 
 ### 2026-10-03 – With AI assistance, I reviewed the ModuDeck prototype budget and evaluated a Raspberry Pi 1 B+ candidate. I explored removable rear access panels, alignment guides for the three empty trays, and cable
 
