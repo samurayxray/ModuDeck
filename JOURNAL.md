@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-01 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-01-all-the-work-for-this-stage-was-already-complete-)
-2. [2026-10-02 – I refined the ModuDeck concept, focusing on the computer and three empty stackable expansion trays. The layout keeps a fixed keyboard, a flip-up touchpad revealing a small phone, and a dialing keypad](#2026-10-02-i-refined-the-modudeck-concept-focusing-on-the-co)
+2. [2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-02-all-the-work-for-this-stage-was-already-complete-)
 3. [2026-10-02 – With my AI assistance made by me](#2026-10-02-with-my-ai-assistance-made-by-me)
 4. [2026-10-03 – With AI assistance, I reviewed the ModuDeck prototype budget and evaluated a Raspberry Pi 1 B+ candidate. I explored removable rear access panels, alignment guides for the three empty trays, and cable](#2026-10-03-with-ai-assistance-i-reviewed-the-modudeck-protot)
 5. [2026-10-04 – I prepared 18 preliminary 3D parts for ModuDeck using a provisional 370 × 240 mm footprint. I created previews from the STL models and an offline viewer to inspect each component. The design includes](#2026-10-04-i-prepared-18-preliminary-3d-parts-for-modudeck-u)
@@ -34,21 +34,17 @@ All the work for this stage was already complete when I wrote the first entry, s
 
 ![module-monitor-pcb-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83.png)
 
-### 2026-10-02 – I refined the ModuDeck concept, focusing on the computer and three empty stackable expansion trays. The layout keeps a fixed keyboard, a flip-up touchpad revealing a small phone, and a dialing keypad
+### 2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad
 
 **3h**
 
-I refined the ModuDeck concept, focusing on the computer and three empty stackable expansion trays. The layout keeps a fixed keyboard, a flip-up touchpad revealing a small phone, and a dialing keypad on its right.
+All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no additional work or extra hours.
 
-With AI assistance(my ai), I explored new improvements: alignment guides, side screws with threaded inserts, removable rear port panels, cable strain relief, ventilation openings, protective corners, rubber feet, and a folding carry handle.
+![module-monitor-pcb-3d-oblique-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/e002f12d8dd83de624d98ea2d11355442f7f19424fe5afdf0a325d0fcb8dcc6b.png)
 
-The three attached images are AI-generated concept illustrations, not photographs of a built prototype or validated CAD renders. The proposed improvements still need to be incorporated into the CAD and checked against actual component dimensions. Electrical connections, power requirements, printing tolerances, and mechanical strength remain to be verified.
+![module-monitor-pcb-3d-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/dac85117e05a416d17491418cd79a30d9c24f2fda9a529ae9e96dbeb57e9427f.png)
 
-![blue5](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/402c9489b6de6495b299d5adf2ccac89fb3bb2ae21174eb25a4f21f04d30315d.png)
-
-![blue4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/73b6738f8067bcbb1dc68999623a3c60c8914248699f4782d4705942d61a780d.png)
-
-![blueprinm3](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/b7f360df7f55d81bae7ec875b971d9c755ffd8d1494bf26bd5e3140ed85ac545.png)
+![module-monitor-pcb-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83.png)
 
 ### 2026-10-02 – With my AI assistance made by me
 
