@@ -1,6 +1,6 @@
-# File preliminari da modellare
+# File preliminari del contenitore
 
-Questa cartella non contiene ancora base o coperchio. È la destinazione prevista per il DWG modificabile e, dopo i controlli, per gli STL separati in millimetri.
+La revisione [assisted-v02](assisted-v02/README.md) contiene base, coperchio e assieme DWG modificabili, STL separati in millimetri e screenshot reali. È stata modellata automaticamente su richiesta del proprietario. Presenta un'interferenza PCB/torretta e rimane preliminare.
 
 Nome proposto per il primo salvataggio personale: `module-monitor-enclosure-preliminary-v01.dwg`.
 

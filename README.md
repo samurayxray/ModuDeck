@@ -22,7 +22,8 @@ Then open `ModuDeck-parts-3D.html`: a menu of all parts, rotation, and zoom. No 
 On GitHub: **Actions → Build 3D models → Run workflow** creates a ZIP with source files, STL models, catalog, and viewer. The workflow is manual; it was not run during the initial upload.
 
 ## Documentation
-- [Module Monitor enclosure: measured PCB references and personal modelling guide](3dparts/module-monitor-enclosure/README.md) — preliminary; enclosure modelling and physical fit tests remain to be done.
+- [Module Monitor enclosure: measured PCB references](3dparts/module-monitor-enclosure/README.md) and [assisted preliminary AutoCAD DWG/STL v02](3dparts/module-monitor-enclosure/preliminary/assisted-v02/README.md) — a known PCB/boss collision remains; physical fit tests remain to be done.
+- [Real AutoCAD screenshots](3dparts/module-monitor-enclosure/preliminary/assisted-v02/screenshots.html): assembly, exploded view, interior, base, supports, lid and dimensioned section. These show assisted CAD work, not fabricated hardware.
 - [KiCad PCB assembly STEP](3dparts/module-monitor-enclosure/reference/module-monitor-pcb-assembly.step)
 - Actual KiCad window captures: [PCB](docs/images/module-monitor-pcb-top-screenshot.png), [3D top](docs/images/module-monitor-pcb-3d-top-screenshot.png), [3D oblique](docs/images/module-monitor-pcb-3d-oblique-screenshot.png). These show CAD, not built hardware. Capture provenance is recorded with the enclosure references.
 - [Parts catalog](docs/PARTS.md)

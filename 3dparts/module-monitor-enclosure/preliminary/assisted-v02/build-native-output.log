@@ -1,0 +1,265 @@
+Redirect stdout (file: C:\Users\samue\AppData\Local\Temp\accc136242).
+AcCoreConsole: StdOutConsoleMode: processed-output: disabled,auto
+AutoCAD Core Engine Console - Copyright 2025 Autodesk, Inc.  All rights reserved. (W.122.0.0)
+
+Execution Path:
+C:\Program Files\Autodesk\AutoCAD 2026\accoreconsole.exe
+Current Directory: E:\moduldeck\ModuDeck-repo
+Isolating to regkey=ModuDeckCad, userDataFolder=E:\moduldeck\work\coreconsole-modudeck-v02.
+
+INFO: Isolation create time: 7805 ms.
+
+Version Number: W.122.0.0 (UNICODE)
+LogFilePath has been set to the working folder.
+CoreHeartBeat
+Rigenerazione modello in corso.
+
+**** Variabile di sistema modificata ****
+Il valore preferito di 1 delle variabili di sistema monitorate è stato modificato. Utilizzare il comando MONITORVARSISTEMA per visualizzare le modifiche.
+
+
+Caricamento delle utilità dei menu di AutoCAD avvenuto.
+Comando:
+Comando:
+
+Comando:
+Comando: (princ "\nMODUDECK_ASSISTED_V02_BEGIN\n")
+
+MODUDECK_ASSISTED_V02_BEGIN
+"\nMODUDECK_ASSISTED_V02_BEGIN\n"
+
+Comando: (setvar "CMDECHO" 0)
+0
+
+Comando: (setvar "FILEDIA" 0)
+0
+
+Comando: (setvar "INSUNITS" 4)
+4
+
+Comando: (setvar "MEASUREMENT" 1)
+1
+
+Comando: (setvar "OSMODE" 0)
+0
+
+Comando: (setvar "DYNMODE" 0)
+0
+
+Comando: (setvar "FACETRES" 10)
+10
+
+Comando: (setvar "WBLOCKCREATEMODE" 1)
+1
+
+Comando: (command "_.UCS" "_World")
+nil
+
+Comando: (setq md-dir "E:/moduldeck/ModuDeck-repo/3dparts/module-monitor-enclosure/preliminary/assisted-v02/")
+"E:/moduldeck/ModuDeck-repo/3dparts/module-monitor-enclosure/preliminary/assisted-v02/"
+
+Comando: (command "_.-LAYER" "_Make" "BASE" "_Color" "9" "BASE" "_New" "COPERCHIO,PCB_RIFERIMENTO,QUOTE" "_Color" "5" "COPERCHIO" "_Color" "3" "PCB_RIFERIMENTO" "_Color" "2" "QUOTE" "")
+nil
+
+Comando: (defun md-box (a b h) (command "_.BOX" a b h) (entlast))
+MD-BOX
+
+Comando: (defun md-cyl (p r h) (command "_.CYLINDER" p r h) (entlast))
+MD-CYL
+
+Comando: (setq md-base (md-box '(0.0 0.0 0.0) '(112.0 94.0 0.0) 28.0))
+<Nome entità: 1495b89f5c0>
+
+Comando: (setq md-cut (md-box '(2.5 2.5 2.5) '(109.5 91.5 2.5) 25.5))
+<Nome entità: 1495b89f600>
+
+Comando: (command "_.SUBTRACT" md-base "" md-cut "")
+nil
+
+Comando: (command "_.MASSPROP" md-base "" "_Yes" (strcat md-dir "01-base-shell.mpr"))
+
+ ----------------   SOLIDI    ----------------
+
+Massa:                       51947.5000
+Volume:                      51947.5000
+Casella di delimitazione: X: 0.0000  --  112.0000
+                          Y: 0.0000  --  94.0000
+                          Z: 0.0000  --  28.0000
+Baricentro:               X: 56.0000
+                          Y: 47.0000
+                          Z: 8.1567
+Momenti di inerzia:       X: 178922505.4167
+                          Y: 246772162.9167
+                          Z: 410887630.4167
+Prodotti di inerzia:     XY: -136725820.0000
+                         YZ: -19914810.6250
+                         ZX: -23728285.0000
+Raggi di girazione:       X: 58.6881
+                          Y: 68.9233
+                          Z: 88.9363
+Momenti principali e direzione X-Y-Z rispetto al baricentro:
+                      I: 60714332.6017 lungo [1.0000 0.0000 0.0000]
+                      J: 80408657.6017 lungo [0.0000 1.0000 0.0000]
+                      K: 133228242.9167 lungo [0.0000 0.0000 1.0000]
+nil
+
+Comando: (setq md-add nil)
+nil
+
+Comando: (foreach p '((19.0 12.0 2.5) (99.0 12.0 2.5) (19.0 72.0 2.5) (99.0 72.0 2.5)) (setq md-add (cons (md-cyl p 3.5 5.0) md-add)))
+(<Nome entità: 1495b89f700> <Nome entità: 1495b89f6c0> <Nome entità: 1495b89f680> <Nome entità: 1495b89f640>)
+
+Comando: (foreach p '((6.0 6.0 2.5) (106.0 6.0 2.5) (6.0 88.0 2.5) (106.0 88.0 2.5)) (setq md-add (cons (md-cyl p 4.0 25.5) md-add)))
+(<Nome entità: 14961e2d880> <Nome entità: 14961e2d840> <Nome entità: 14961e2d800> <Nome entità: 1495b89f740> <Nome entità: 1495b89f700> <Nome entità: 1495b89f6c0> <Nome entità: 1495b89f680> <Nome entità: 1495b89f640>)
+
+Comando: (apply 'command (append (list "_.UNION" md-base) md-add (list "")))
+nil
+
+Comando: (setq md-base (entlast))
+<Nome entità: 1495b89f5c0>
+
+Comando: (command "_.MASSPROP" md-base "" "_Yes" (strcat md-dir "02-base-with-bosses.mpr"))
+
+ ----------------   SOLIDI    ----------------
+
+Massa:                       57577.4278
+Volume:                      57577.4278
+Casella di delimitazione: X: 0.0000  --  112.0000
+                          Y: 0.0000  --  94.0000
+                          Z: 0.0000  --  28.0000
+Baricentro:               X: 56.0401
+                          Y: 46.9332
+                          Z: 8.7132
+Momenti di inerzia:       X: 201274245.0399
+                          Y: 279461330.0358
+                          Z: 463099499.3660
+Prodotti di inerzia:     XY: -151425257.5730
+                         YZ: -23560020.8379
+                         ZX: -28105986.4850
+Raggi di girazione:       X: 59.1246
+                          Y: 69.6682
+                          Z: 89.6832
+Momenti principali e direzione X-Y-Z rispetto al baricentro:
+                      I: 70075879.2496 lungo [1.0000 -0.0005 -0.0001]
+                      J: 94268491.2907 lungo [0.0005 1.0000 0.0002]
+                      K: 155450940.8437 lungo [0.0001 -0.0002 1.0000]
+nil
+
+Comando: (setvar "CLAYER" "COPERCHIO")
+"COPERCHIO"
+
+Comando: (setq md-lid (md-box '(0.0 0.0 28.0) '(112.0 94.0 28.0) 2.5))
+<Nome entità: 14961e2d8c0>
+
+Comando: (foreach p '((6.0 6.0 27.5) (106.0 6.0 27.5) (6.0 88.0 27.5) (106.0 88.0 27.5)) (setq md-cut (md-cyl p 1.6 3.5)) (command "_.SUBTRACT" md-lid "" md-cut ""))
+nil
+
+Comando: (command "_.MASSPROP" md-lid "" "_Yes" (strcat md-dir "03-lid.mpr"))
+
+ ----------------   SOLIDI    ----------------
+
+Massa:                       26239.5752
+Volume:                      26239.5752
+Casella di delimitazione: X: 0.0000  --  112.0000
+                          Y: 0.0000  --  94.0000
+                          Z: 28.0000  --  30.5000
+Baricentro:               X: 56.0000
+                          Y: 47.0000
+                          Z: 29.2500
+Momenti di inerzia:       X: 99671532.5252
+                          Y: 132062630.8734
+                          Z: 186807637.3455
+Prodotti di inerzia:     XY: -69062562.0003
+                         YZ: -36072856.0448
+                         ZX: -42980424.2236
+Raggi di girazione:       X: 61.6321
+                          Y: 70.9433
+                          Z: 84.3760
+Momenti principali e direzione X-Y-Z rispetto al baricentro:
+                      I: 19258714.2653 lungo [1.0000 0.0000 0.0000]
+                      J: 27325726.3771 lungo [0.0000 1.0000 0.0000]
+                      K: 46557107.7515 lungo [0.0000 0.0000 1.0000]
+nil
+
+Comando: (setvar "CLAYER" "PCB_RIFERIMENTO")
+"PCB_RIFERIMENTO"
+
+Comando: (setq md-pcb (md-box '(14.0 7.0 7.5) '(104.0 77.0 7.5) 1.6))
+<Nome entità: 14961e2da00>
+
+Comando: (foreach p '((19.0 12.0 7.0) (99.0 12.0 7.0) (19.0 72.0 7.0) (99.0 72.0 7.0)) (setq md-cut (md-cyl p 1.6 2.6)) (command "_.SUBTRACT" md-pcb "" md-cut ""))
+nil
+
+Comando: (command "_.MASSPROP" md-pcb "" "_Yes" (strcat md-dir "04-pcb-reference.mpr"))
+
+ ----------------   SOLIDI    ----------------
+
+Massa:                       10028.5281
+Volume:                      10028.5281
+Casella di delimitazione: X: 14.0000  --  104.0000
+                          Y: 7.0000  --  77.0000
+                          Z: 7.5000  --  9.1000
+Baricentro:               X: 59.0000
+                          Y: 42.0000
+                          Z: 8.3000
+Momenti di inerzia:       X: 22452970.7622
+                          Y: 42323923.2910
+                          Z: 63390884.6065
+Prodotti di inerzia:     XY: -24850692.7457
+                         YZ: -3495944.9117
+                         ZX: -4910970.2331
+Raggi di girazione:       X: 47.3171
+                          Y: 64.9642
+                          Z: 79.5051
+Momenti principali e direzione X-Y-Z rispetto al baricentro:
+                      I: 4071781.8087 lungo [1.0000 0.0000 0.0000]
+                      J: 6723751.5109 lungo [0.0000 1.0000 0.0000]
+                      K: 10791254.4809 lungo [0.0000 0.0000 1.0000]
+nil
+
+Comando: (setvar "CLAYER" "QUOTE")
+"QUOTE"
+
+Comando: (setvar "DIMTXT" 2.5)
+2.5
+
+Comando: (setvar "DIMASZ" 2.0)
+2.0
+
+Comando: (setvar "DIMSCALE" 1.0)
+1.0
+
+Comando: (setvar "DIMDEC" 1)
+1
+
+Comando: (command "_.DIMLINEAR" '(0.0 0.0 0.0) '(112.0 0.0 0.0) '(56.0 -9.0 0.0))
+nil
+
+Comando: (command "_.DIMLINEAR" '(0.0 0.0 0.0) '(0.0 94.0 0.0) '(-9.0 47.0 0.0))
+nil
+
+Comando: (command "_.-TEXT" '(-5.0 -20.0 0.0) 2.2 0.0 "PRELIMINARE - CAD ASSISTITO - INTERFERENZA PCB/TORRETTA DA CORREGGERE")
+nil
+
+Comando: (command "_.VPOINT" '(1.0 -1.0 1.0))
+nil
+
+Comando: (command "_.ZOOM" "_Extents")
+nil
+
+Comando: (command "_.SAVEAS" "_2018" (strcat md-dir "assembly-preliminary-v02.dwg"))
+nil
+
+Comando: (command "_.-WBLOCK" (strcat md-dir "base-preliminary-v02.dwg") "" '(0.0 0.0 0.0) md-base "")
+nil
+
+Comando: (command "_.-WBLOCK" (strcat md-dir "lid-preliminary-v02.dwg") "" '(0.0 0.0 0.0) md-lid "")
+nil
+
+Comando: (command "_.STLOUT" md-base "" "_Yes" (strcat md-dir "base-preliminary-mm-v02.stl"))
+
+
+*Selezione non valida*
+Richiede un punto o Finestra/Ultimo/Interseca/Riquadro/Tutto/iNTercetta/FPoligono/IPoligono/Gruppo/AGgiungi/Elimina/Multiplo/Precedente/Annulla/AUto/SIngolo
+; errore: La funzione è stata annullata
+

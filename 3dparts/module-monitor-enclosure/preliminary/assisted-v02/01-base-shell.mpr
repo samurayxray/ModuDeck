@@ -1,0 +1,24 @@
+
+ ----------------   SOLIDI    ---------------- 
+
+Massa:                       51947.5000 
+Volume:                      51947.5000 
+Casella di delimitazione: X: 0.0000  --  112.0000 
+                          Y: 0.0000  --  94.0000 
+                          Z: 0.0000  --  28.0000 
+Baricentro:               X: 56.0000 
+                          Y: 47.0000 
+                          Z: 8.1567 
+Momenti di inerzia:       X: 178922505.4167  
+                          Y: 246772162.9167  
+                          Z: 410887630.4167  
+Prodotti di inerzia:     XY: -136725820.0000  
+                         YZ: -19914810.6250  
+                         ZX: -23728285.0000  
+Raggi di girazione:       X: 58.6881 
+                          Y: 68.9233 
+                          Z: 88.9363 
+Momenti principali e direzione X-Y-Z rispetto al baricentro:
+                      I: 60714332.6017 lungo [1.0000 0.0000 0.0000]
+                      J: 80408657.6017 lungo [0.0000 1.0000 0.0000]
+                      K: 133228242.9167 lungo [0.0000 0.0000 1.0000]

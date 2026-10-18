@@ -2,7 +2,7 @@
 
 Verifica tecnica assistita da Codex, 18 ottobre 2026. Questo testo descrive file e controlli, non è un diario personale. Non sono state attribuite ore.
 
-**Stato: da modellare.** Il proprietario ha confermato che non esiste ancora un DWG del contenitore e che dispone soltanto del PC. Non sono disponibili Pico, PCB fabbricata, cavo, morsetti o fissaggi per prove fisiche. Nessuna base o coperchio è stato modellato automaticamente in questa sessione.
+**Stato: CAD preliminare assistito.** Dopo l'analisi dei riferimenti, il proprietario ha richiesto la modellazione automatica: [DWG, STL, controlli e catture v02](preliminary/assisted-v02/README.md). Esiste un'interferenza PCB/torretta da correggere. Il proprietario dispone soltanto del PC; non sono disponibili componenti fisici per prove di accoppiamento. Le sezioni seguenti conservano l'analisi dei riferimenti elettronici precedente al contenitore; i risultati attuali del contenitore sono descritti nella revisione v02.
 
 ## File effettivamente disponibili
 
@@ -49,13 +49,13 @@ La proposta resta preliminare. Si assume qui che i 28 mm siano l'altezza della *
 | Distanza teorica al coperchio appoggiato a Z=28 | 4,165 mm |
 | Sporgenze modellate sotto PCB rispetto al pavimento | 5 − 1,905 = 3,095 mm di spazio residuo |
 
-Questi sono calcoli di ingombro, **non una verifica delle interferenze del contenitore**. La PCB non ha ancora una posizione XY scelta. Centrarla lascerebbe 8,5 mm per lato in X e 9,5 mm per lato in Y; spostarla può servire per cavo USB e morsetti. Le precedenti riserve di 15 mm per USB e 10 mm per cavi sono ipotesi, non misure dei componenti acquistati. Anche i 4,165 mm superiori non provano che sia possibile premere BOOTSEL o afferrare ed estrarre il Pico.
+Questi sono calcoli di ingombro, **non una verifica completa delle interferenze del contenitore**. Nella successiva v02 il proprietario ha scelto per la PCB l'angolo inferiore sinistro (14,7), con Y verso l'alto, e Z inferiore 7,5. La torretta (106,6) collide con l'angolo PCB (104,7). Le precedenti riserve di 15 mm per USB e 10 mm per cavi sono ipotesi, non misure dei componenti acquistati. Anche i 4,165 mm superiori non provano che sia possibile premere BOOTSEL o afferrare ed estrarre il Pico.
 
 Nel STEP semplificato il solo substrato è spesso 1,51 mm: l'esportazione predefinita omette rame e soldermask come geometria. **Non sostituire** per questo il valore nominale PCB di 1,6 mm. Saldature reali, tolleranze e posizione finale degli zoccoli richiedono misure fisiche.
 
 ## Controlli eseguiti e mancanti
 
-L'assieme STEP si importa in Open CASCADE e contiene **21 solidi validi, con 21 gusci chiusi**. Sono validi anche gli STEP di dettaglio. Questi risultati riguardano i riferimenti elettronici; non esistono ancora solidi di base/coperchio o STL da certificare. Non sono state controllate interferenze con supporti, fissaggi del coperchio o pareti modellate.
+L'assieme STEP si importa in Open CASCADE e contiene **21 solidi validi, con 21 gusci chiusi**. Sono validi anche gli STEP di dettaglio. Questi risultati riguardano i riferimenti elettronici. Per i successivi solidi AutoCAD e gli STL del contenitore, vedere i [controlli v02](preliminary/assisted-v02/README.md): mesh chiuse e dimensioni controllate, accoppiamento non verificato e collisione nota.
 
 Quote e scelte ancora necessarie:
 
@@ -77,7 +77,7 @@ Sono catture della finestra KiCad del file canonico, ritagliate per mostrare sol
 | [Assieme PCB dall'alto](../../docs/images/module-monitor-pcb-3d-top-screenshot.png) | Visualizzatore 3D KiCad reale |
 | [Assieme PCB obliquo](../../docs/images/module-monitor-pcb-3d-oblique-screenshot.png) | Visualizzatore 3D, zoccoli e componenti |
 
-Le sei viste richieste del **contenitore** (assieme isometrico, base aperta, supporti/fissaggi, coperchio, sezione con PCB, vista quotata) restano da acquisire dopo la modellazione personale. Non sono state sostituite con immagini inventate. Le sei esportazioni KiCad preesistenti in `electronics/module-monitor/exports/images/` restano esportazioni precedenti, non nuovi screenshot.
+Le successive [sette catture reali AutoCAD del contenitore](preliminary/assisted-v02/screenshots.html) mostrano assieme, esploso, interno, base aperta, supporti dall'alto, coperchio e sezione quotata. La modellazione è assistita automatica. Le sei esportazioni KiCad preesistenti in `electronics/module-monitor/exports/images/` restano esportazioni precedenti, non nuovi screenshot.
 
 ## Riproducibilità e contributi
 

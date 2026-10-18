@@ -1,0 +1,7 @@
+*.dwg -text -diff
+*.stl -text -diff
+*.mpr -text -whitespace
+*.scr -text -whitespace
+*.log -text -whitespace
+*.html text eol=lf
+.gitignore text eol=lf

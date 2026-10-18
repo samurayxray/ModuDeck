@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-18",
+  "application": "Autodesk AutoCAD 2026",
+  "capture_tool": "@oai/sky get_window_state",
+  "content": "Preliminary CAD geometry authored automatically by Codex at the owner request; not photographs of fabricated parts.",
+  "captures": [
+    {
+      "image": "docs/images/module-monitor-enclosure-preliminary-v02-assembly.png",
+      "source": "E:\\moduldeck\\backups\\enclosure-real-captures-v02\\assembly.png",
+      "source_sha256": "76fb616580115d31ddb8a8f2d4846b45ac846ab7f8fa01b608d0436489b70c4e",
+      "output_sha256": "16dfb2341537db6502b90202319b9313c63bb3ee539bb680a0aa1a95b73c7294",
+      "source_size": [
+        1536,
+        864
+      ],
+      "crop_left_top_right_bottom": [
+        460,
+        235,
+        1140,
+        755
+      ],
+      "processing": "Rectangular crop only; real AutoCAD window capture, no generated pixels."
+    },
+    {
+      "image": "docs/images/module-monitor-enclosure-preliminary-v02-exploded.png",
+      "source": "E:\\moduldeck\\backups\\enclosure-real-captures-v02\\exploded.png",
+      "source_sha256": "143dfeb013b7f4eba09043f10193073e82c5216ec25f258104892b84a3e7bf87",
+      "output_sha256": "40f03bf1c7b4f79c3831a93f6ad3097ed666c0dc0b0b37204b4afbb7affca06d",
+      "source_size": [
+        1536,
+        864
+      ],
+      "crop_left_top_right_bottom": [
+        465,
+        205,
+        1130,
+        795
+      ],
+      "processing": "Rectangular crop only; real AutoCAD window capture, no generated pixels."
+    },
+    {
+      "image": "docs/images/module-monitor-enclosure-preliminary-v02-interior.png",
+      "source": "E:\\moduldeck\\backups\\enclosure-real-captures-v02\\interior.png",
+      "source_sha256": "abf826f28374a38b4aaec5a16ab73530c52cc98bcf126460ba2737e445cf3417",
+      "output_sha256": "3ad887b9956ae057f0d3a02080cd9bbebfcf7470f23de1c5f0456eb494168c28",
+      "source_size": [
+        1536,
+        864
+      ],
+      "crop_left_top_right_bottom": [
+        410,
+        210,
+        1200,
+        785
+      ],
+      "processing": "Rectangular crop only; real AutoCAD window capture, no generated pixels."
+    },
+    {
+      "image": "docs/images/module-monitor-enclosure-preliminary-v02-base-supports.png",
+      "source": "E:\\moduldeck\\backups\\enclosure-real-captures-v02\\base-supports.png",
+      "source_sha256": "e4762226d1218c86e5a4db36bdcba28c71b6867237116c99eb431452e9a301a7",
+      "output_sha256": "cd265be8a70fe4ea44f7c0920a67e8d00646294c3424a8bc5bf796e263cea9cd",
+      "source_size": [
+        1536,
+        864
+      ],
+      "crop_left_top_right_bottom": [
+        415,
+        240,
+        1120,
+        775
+      ],
+      "processing": "Rectangular crop only; real AutoCAD window capture, no generated pixels."
+    },
+    {
+      "image": "docs/images/module-monitor-enclosure-preliminary-v02-supports-top.png",
+      "source": "E:\\moduldeck\\backups\\enclosure-real-captures-v02\\supports-top.png",
+      "source_sha256": "5b2c33a91a38f6bcc554636114c69a2009d4cf00cf920824e931eb8ff7ae2edd",
+      "output_sha256": "3e11ae85faf671955a399fc579bd92cf951dfbac5b61466773efacec9a68c419",
+      "source_size": [
+        1536,
+        864
+      ],
+      "crop_left_top_right_bottom": [
+        455,
+        240,
+        1080,
+        775
+      ],
+      "processing": "Rectangular crop only; real AutoCAD window capture, no generated pixels."
+    },
+    {
+      "image": "docs/images/module-monitor-enclosure-preliminary-v02-lid.png",
+      "source": "E:\\moduldeck\\backups\\enclosure-real-captures-v02\\lid.png",
+      "source_sha256": "b01de0218d43119f171eb5b278c72af549222b015c99d5a90f6cd1ea89437937",
+      "output_sha256": "8b06c363956fdf5d0b7d15fd98c2ee8d6eca471de0b663fdaf29426a7a219dbe",
+      "source_size": [
+        1536,
+        864
+      ],
+      "crop_left_top_right_bottom": [
+        310,
+        225,
+        1225,
+        785
+      ],
+      "processing": "Rectangular crop only; real AutoCAD window capture, no generated pixels."
+    },
+    {
+      "image": "docs/images/module-monitor-enclosure-preliminary-v02-section-dimensions.png",
+      "source": "E:\\moduldeck\\backups\\enclosure-real-captures-v02\\section-dimensions.png",
+      "source_sha256": "82369f0e41849a3459e7130ae5579d28b110dc4551c971657c829a01b0c54cef",
+      "output_sha256": "21cf2d28520fb7a8947b5284fc9306bfdd4ec28f5dd01bd4f486bc990276c15f",
+      "source_size": [
+        1536,
+        864
+      ],
+      "crop_left_top_right_bottom": [
+        5,
+        235,
+        1160,
+        775
+      ],
+      "processing": "Rectangular crop only; real AutoCAD window capture, no generated pixels."
+    }
+  ]
+}

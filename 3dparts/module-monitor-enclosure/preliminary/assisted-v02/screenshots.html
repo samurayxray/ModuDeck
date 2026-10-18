@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="it"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>ModuDeck — screenshot reali AutoCAD</title>
+<style>
+body{margin:0;background:#151c24;color:#e9eff5;font:17px system-ui;height:100dvh;display:flex;flex-direction:column}header{padding:18px 28px;border-bottom:1px solid #394451;flex:none}h1{font-size:24px;margin:0 0 5px}p{margin:5px 0;color:#bdc9d6}nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}button{background:#293847;color:#fff;border:1px solid #536779;border-radius:7px;padding:9px 16px;cursor:pointer}button[aria-pressed=true]{background:#356383}main{text-align:center;padding:12px;flex:1;min-height:0;display:flex;flex-direction:column}img{width:100%;height:calc(100dvh - 260px);max-height:68dvh;object-fit:contain}h2{font-size:19px;margin:4px;flex:none}.note{color:#ffca78;font-size:14px}
+</style>
+<header><h1>ModuDeck Module Monitor · CAD preliminare v02</h1>
+<p>Catture reali di AutoCAD. Modellazione automatica assistita; nessun pezzo fabbricato o provato.</p>
+<p class="note">Accoppiamento da correggere: torretta (106,6) contro angolo PCB (104,7). Componenti, aperture e fissaggi da verificare.</p>
+<nav id="views"></nav></header><main><h2 id="caption"></h2><img id="capture" alt="Screenshot reale AutoCAD"></main>
+<script>
+const views=[['assembly','Assieme'],['exploded','Esploso'],['interior','Interno con PCB'],['base-supports','Base aperta'],['supports-top','Supporti dall’alto'],['lid','Coperchio'],['section-dimensions','Sezione quotata']];
+for(const [key,label] of views){const b=document.createElement('button');b.textContent=label;b.onclick=()=>{document.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');document.getElementById('capture').src='../../../../docs/images/module-monitor-enclosure-preliminary-v02-'+key+'.png';document.getElementById('caption').textContent=label;};document.getElementById('views').append(b);}document.querySelectorAll('button')[1].click();
+</script></html>

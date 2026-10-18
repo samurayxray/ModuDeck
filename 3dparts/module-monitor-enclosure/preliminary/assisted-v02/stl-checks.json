@@ -1,0 +1,57 @@
+{
+  "units_interpreted_as": "mm",
+  "native_exporter": "AutoCAD STLOUT",
+  "checks": [
+    {
+      "file": "base-preliminary-mm-v02.stl",
+      "faces": 1420,
+      "bounds": [
+        [
+          9.999999974752427e-07,
+          9.999999974752427e-07,
+          9.999999974752427e-07
+        ],
+        [
+          112.0,
+          94.0,
+          28.000001907348633
+        ]
+      ],
+      "size": [
+        111.999999,
+        93.999999,
+        28.000000907348635
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "volume": 57567.19065357833,
+      "connected_components": 1
+    },
+    {
+      "file": "lid-preliminary-mm-v02.stl",
+      "faces": 556,
+      "bounds": [
+        [
+          9.999999974752427e-07,
+          9.999999974752427e-07,
+          9.999999974752427e-07
+        ],
+        [
+          112.0,
+          94.0,
+          2.5000009536743164
+        ]
+      ],
+      "size": [
+        111.999999,
+        93.999999,
+        2.499999953674319
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "volume": 26240.059262579045,
+      "connected_components": 1
+    }
+  ],
+  "fit_verified": false
+}

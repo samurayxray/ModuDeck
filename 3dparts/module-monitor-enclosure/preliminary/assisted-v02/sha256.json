@@ -1,0 +1,14 @@
+{
+  "01-base-shell.mpr": "66ce93d9db5a06610cde2c30ac72532c59c0a5a6ccdd44324716ecf40b8d194f",
+  "02-base-with-bosses.mpr": "90c9e22ff4f90566e77f1e4b26d08bc4d5a0c77875e7ab125dffa12c9ebede03",
+  "03-lid.mpr": "343a32c29fe3b5dd3e98c4747760129e2bb01373f11e53958560740fad91809b",
+  "04-pcb-reference.mpr": "d02c935e0fd6e8a7674faa7d66b2d3113486e9cba20fd544e5e6416aa872da63",
+  "assembly-preliminary-v02.dwg": "84bdde08b23c7c0eb26e6887623d0700a27387fb32874b3bfcc55174ac0058e6",
+  "base-preliminary-mm-v02.stl": "307eaa386bd1a65782d98bdaff3916ed9a952cd72e264c9d3debc8a21d8ba1fa",
+  "base-preliminary-v02.dwg": "586e5077bdbd22f7a301af5e9369b3a658b3822f7000beb2e8aee96101211902",
+  "exploded-review-preliminary-v02.dwg": "bd62dd2d7a5110361603e6e84def6aa3810e3aca6d5edd94be0dddfd04df5e20",
+  "interior-review-preliminary-v02.dwg": "0b3acc52f7c391e084b741ee9ed47577969e2d97c07de53d70aeae23950d640a",
+  "lid-preliminary-mm-v02.stl": "2a01da572ac71fc2d84ec8dfd85405a334d0efd8f180b56f046003192591b22f",
+  "lid-preliminary-v02.dwg": "87c382b387e1672038d6755d11f54ac9d0635a810394942e82686dc546275157",
+  "section-y12-review-preliminary-v02.dwg": "00ecf06b8342f0a9967ff95dd77059d541f135471bfa9ccb83a75faa0b1bf49b"
+}
