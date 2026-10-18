@@ -4,9 +4,9 @@
 <!-- Generated: 2026-10-04T11:50:40.995Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmupp9gjg00dg01pdrj2173qz). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> I want to design a portable modular computer with interchangeable modules attached underneath using side screws. The modules will connect to the main unit through power and data connectors. My first prototype will focus on the enclosure, the mounting system, and one working expansion module. Future modules could include extra USB ports, a battery pack, and a drone storage and charging dock, with software on the computer to communicate with a compatible drone.
+> I want to design a portable modular computer with interchangeable modules attached underneath using side srews. The modules will connect to the main unit through power and data connectors. My first prototype will focus on the enclosure, the mounting system, and one working expansion module. Future modules could include extra USB ports, a battery pack, and a drone storag and charging dock, with software on the computer  to communicate with a compatible drone (this is one of my best idea)
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
@@ -14,7 +14,7 @@
 
 ## Contents
 
-1. [2026-10-01 – I developed the concept for ModuDeck using my hand-drawn sketches. I defined a portable computer with full-size stackable modules for a drone, batteries, and storage drives. I also planned a flip-up t](#2026-10-01-i-developed-the-concept-for-modudeck-using-my-han)
+1. [2026-10-01 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-01-all-the-work-for-this-stage-was-already-complete-)
 2. [2026-10-02 – I refined the ModuDeck concept, focusing on the computer and three empty stackable expansion trays. The layout keeps a fixed keyboard, a flip-up touchpad revealing a small phone, and a dialing keypad](#2026-10-02-i-refined-the-modudeck-concept-focusing-on-the-co)
 3. [2026-10-02 – With my AI assistance made by me](#2026-10-02-with-my-ai-assistance-made-by-me)
 4. [2026-10-03 – With AI assistance, I reviewed the ModuDeck prototype budget and evaluated a Raspberry Pi 1 B+ candidate. I explored removable rear access panels, alignment guides for the three empty trays, and cable](#2026-10-03-with-ai-assistance-i-reviewed-the-modudeck-protot)
@@ -22,17 +22,17 @@
 
 ## Design
 
-### 2026-10-01 – I developed the concept for ModuDeck using my hand-drawn sketches. I defined a portable computer with full-size stackable modules for a drone, batteries, and storage drives. I also planned a flip-up t
+### 2026-10-01 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad
 
 **3h**
 
-I developed the concept for ModuDeck using my hand-drawn sketches. I defined a portable computer with full-size stackable modules for a drone, batteries, and storage drives. I also planned a flip-up touchpad revealing a small phone, with a dialing keypad on its right, plus rear connections for antennas, power, and data. With AI assistance, I generated concept blueprints and preliminary 3D models to visualize the idea. Dimensions, electronic components, wiring, and connector specifications still need to be selected and validated.
+All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no additional work or extra hours.
 
-![Screenshot 2026-10-01 210554](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/983879aa9800c303717a551aacf62b49f995f56ca958f1d96343f0e6a19c84a4.png)
+![module-monitor-pcb-3d-oblique-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/e002f12d8dd83de624d98ea2d11355442f7f19424fe5afdf0a325d0fcb8dcc6b.png)
 
-![Screenshot 2026-10-01 210739](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/0444033ae051f4e535e67863944b55cab08718a6797f9081e4680df264fcf8b8.png)
+![module-monitor-pcb-3d-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/dac85117e05a416d17491418cd79a30d9c24f2fda9a529ae9e96dbeb57e9427f.png)
 
-![blueprint2](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/01cbfdb6ef40da671946e11c2e406760785bc485e657444da66c85a1606e82a8.png)
+![module-monitor-pcb-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83.png)
 
 ### 2026-10-02 – I refined the ModuDeck concept, focusing on the computer and three empty stackable expansion trays. The layout keeps a fixed keyboard, a flip-up touchpad revealing a small phone, and a dialing keypad
 
