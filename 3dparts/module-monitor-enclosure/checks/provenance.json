@@ -1,0 +1,147 @@
+{
+  "generated_utc": "2026-10-18T18:50:00.188153+00:00",
+  "author_of_technical_assistance": "Codex",
+  "user_confirmed": {
+    "enclosure_dwg_exists": false,
+    "physical_resources": "Only the PC"
+  },
+  "source_pcb": "electronics/module-monitor/ModuDeck-Module-Monitor.kicad_pcb",
+  "source_pcb_sha256": "a16150c834d6889d9b14b23abb341679b0a892e0572d11ace532a81ad47cffe1",
+  "backup_directory": "E:\\moduldeck\\backups\\module-monitor-enclosure-2026-10-18-203533",
+  "source_pcb_and_project_unchanged": true,
+  "half_life_mirrors_unchanged": [
+    "BOM.md",
+    "JOURNAL.md"
+  ],
+  "hours_modified": false,
+  "models": [
+    {
+      "pcb_path": "${KICAD10_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_PinSockets_H8.50mm.step",
+      "project_copy": "electronics/module-monitor/models/RaspberryPi_Pico_PinSockets_H8.50mm.step",
+      "sha256": "0ce5d4c3ac5ac67ff35a3a0d1b7ddcdaa359c3a8a191402ec81d792cc52fe870",
+      "installed_copy_matches_project": true
+    },
+    {
+      "pcb_path": "${KICAD10_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico_AddedHeaders_H2.54mm.step",
+      "project_copy": "electronics/module-monitor/models/RaspberryPi_Pico_AddedHeaders_H2.54mm.step",
+      "sha256": "7200015d6d69c42984712be4fa32f12aa337f07b9e521c888d0f67cb56f9b03b",
+      "installed_copy_matches_project": true
+    },
+    {
+      "pcb_path": "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.step",
+      "project_copy": "electronics/module-monitor/models/LED_D5.0mm.step",
+      "sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+      "installed_copy_matches_project": true
+    },
+    {
+      "pcb_path": "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step",
+      "project_copy": "electronics/module-monitor/models/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step",
+      "sha256": "2684469b03d2dd46f26862eb86eb283215344c311dd485db877e7139b5381497",
+      "installed_copy_matches_project": true
+    },
+    {
+      "pcb_path": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step",
+      "project_copy": "electronics/module-monitor/models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step",
+      "sha256": "85bdadc9190739c38429da06b1d9c76ccf33aef9a0794a2e7a9dd5b58d9d05fe",
+      "installed_copy_matches_project": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "docs/images/module-monitor-pcb-top-screenshot.png",
+      "sha256": "ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83",
+      "size_pixels": [
+        860,
+        670
+      ],
+      "view": "KiCad PCB editor",
+      "kind": "Actual application window capture, cropped; CAD model, not hardware photo",
+      "raw_capture_backup": "E:\\moduldeck\\backups\\module-monitor-enclosure-2026-10-18-203533\\kicad-pcb-top-full-window.png",
+      "raw_capture_sha256": "771c82e87d42033ebb728df02441a30772b5fee659086000f3d3c83eb5bf7b03",
+      "capture_saved_utc": "2026-10-18T18:41:21.721506+00:00",
+      "crop_xyxy_pixels": [
+        380,
+        125,
+        1240,
+        795
+      ],
+      "source_pcb_sha256": "a16150c834d6889d9b14b23abb341679b0a892e0572d11ace532a81ad47cffe1",
+      "generative_image_used": false
+    },
+    {
+      "file": "docs/images/module-monitor-pcb-3d-top-screenshot.png",
+      "sha256": "dac85117e05a416d17491418cd79a30d9c24f2fda9a529ae9e96dbeb57e9427f",
+      "size_pixels": [
+        740,
+        535
+      ],
+      "view": "KiCad 3D viewer, top",
+      "kind": "Actual application window capture, cropped; CAD model, not hardware photo",
+      "raw_capture_backup": "E:\\moduldeck\\backups\\module-monitor-enclosure-2026-10-18-203533\\kicad-pcb-3d-top-full-window.png",
+      "raw_capture_sha256": "0543da16c503f076922ab5e14147f614351327e9c7bab57fc7f4e323367b297f",
+      "capture_saved_utc": "2026-10-18T18:42:32.178090+00:00",
+      "crop_xyxy_pixels": [
+        160,
+        110,
+        900,
+        645
+      ],
+      "source_pcb_sha256": "a16150c834d6889d9b14b23abb341679b0a892e0572d11ace532a81ad47cffe1",
+      "generative_image_used": false
+    },
+    {
+      "file": "docs/images/module-monitor-pcb-3d-oblique-screenshot.png",
+      "sha256": "e002f12d8dd83de624d98ea2d11355442f7f19424fe5afdf0a325d0fcb8dcc6b",
+      "size_pixels": [
+        770,
+        510
+      ],
+      "view": "KiCad 3D viewer, oblique",
+      "kind": "Actual application window capture, cropped; CAD model, not hardware photo",
+      "raw_capture_backup": "E:\\moduldeck\\backups\\module-monitor-enclosure-2026-10-18-203533\\kicad-pcb-3d-profile-full-window.png",
+      "raw_capture_sha256": "2ecd73942080481e5ed8cc9f8d31f00c9790df58a3ebd1ee494589466c302f08",
+      "capture_saved_utc": "2026-10-18T18:44:50.954283+00:00",
+      "crop_xyxy_pixels": [
+        130,
+        115,
+        900,
+        625
+      ],
+      "source_pcb_sha256": "a16150c834d6889d9b14b23abb341679b0a892e0572d11ace532a81ad47cffe1",
+      "generative_image_used": false
+    }
+  ],
+  "local_markdown_links_checked": 26,
+  "broken_local_markdown_links": [],
+  "readme_edit_scope": "Technical reference and screenshot links; historical concept retained as a labelled link",
+  "enclosure_model_created_by_assistant": false,
+  "enclosure_screenshots_available": false,
+  "stl_exported": false,
+  "submitted_for_review": false,
+  "work_done": [
+    "Read existing sources and concept images",
+    "Extract PCB geometry",
+    "Export and inspect STEP references",
+    "Capture actual KiCad windows",
+    "Prepare a guide for personal modelling"
+  ],
+  "artifact_sha256": {
+    "3dparts/module-monitor-enclosure/checks/additional-step-exports.json": "34d6c33200c0bbc0fe2b8974725059f6ac9c4acb02b2a24250f628337ff379fd",
+    "3dparts/module-monitor-enclosure/checks/existing-viewer-inventory.json": "c2e0b51f0fce464438f961f6316fe80c63cb390913e69befc598f4881a1faff5",
+    "3dparts/module-monitor-enclosure/checks/reproduction.json": "7c47fb1236c9070658bd5d1604a4584daa76a122f85cba0f44dce54ac8cc8d38",
+    "3dparts/module-monitor-enclosure/checks/step-geometry.json": "9bd9e244e0f1951699fd069a2ced57d5b6c9bd7410d81cbf3a22ebe64264fbc7",
+    "3dparts/module-monitor-enclosure/extract_reference.py": "db940bdc8b97cb85da8ccc046ba2f2e73305dbd099833e396ddea8a9b2f01aa0",
+    "3dparts/module-monitor-enclosure/inspect_step.py": "b1aa690468463658f8f939ceacd1a2aaa4aa1c1e493a1fa753552ba17240b89d",
+    "3dparts/module-monitor-enclosure/MODELLAZIONE-GUIDATA.md": "60e66f79e05aec2c99f4e167b91116b19e8939cf14471507ba2650ec3dd747e8",
+    "3dparts/module-monitor-enclosure/preliminary/README.md": "1799da558a007eb06a01c0d06de1844c2bf45dc418ba6d0e57b1daa97ccab1ea",
+    "3dparts/module-monitor-enclosure/README.md": "ce82c5bdbee5e08e816f4e3699941a16008051eb82a8e2471247a47dbba1de38",
+    "3dparts/module-monitor-enclosure/reference/component-positions.csv": "ae5fa4f3fd483f4208bba70860918c81e4826e636f3761b8a0066ac21806e5f7",
+    "3dparts/module-monitor-enclosure/reference/module-monitor-pcb-assembly.step": "3b844309b36e6fa5c3ba3448df8d456582d3151f1134b1ca7155c070588bfe14",
+    "3dparts/module-monitor-enclosure/reference/pcb-body.step": "4ee7ed2d484063fac7a97dca8e9ea4194bf7095407c95e9223e7412b35d1f4af",
+    "3dparts/module-monitor-enclosure/reference/pcb-geometry.json": "9af4e8cb164fed675b2485b87a3f4634658657273ae6e6fcd13104e65af2b56b",
+    "3dparts/module-monitor-enclosure/reference/pico-and-sockets.step": "e0f558e76e2bfd9618f4d66e56d1c16bd8d1057d1fdf455723e17813ce2ff2ed",
+    "3dparts/module-monitor-enclosure/reference/sha256.json": "cbc3248a1b7e2e5e7dbc08756fc25c4640945a775dac897f3a04ebea28721b7f",
+    "3dparts/module-monitor-enclosure/reference/step-export.json": "34aa8838a3629ae612ca8176a8c4a3a6520c977ab0607c1459924f976a6eccdc",
+    "3dparts/module-monitor-enclosure/reference/terminal-j1.step": "6c51880f317c8104d8f361c33aaceb5b2aa3182eb3a0a88ee9abf85d586c0e53"
+  }
+}

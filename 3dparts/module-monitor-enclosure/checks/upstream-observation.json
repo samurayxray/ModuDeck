@@ -1,0 +1,57 @@
+{
+  "initial_local_commit": "437b9532c690e9e43120a76f9cff8f0af4817e3b",
+  "observed_origin_main": "fbf7dde87e8c60e6d319a35d7b30868a93b180ed",
+  "remote_mirrors_backed_up_to": "E:\\moduldeck\\backups\\module-monitor-enclosure-2026-10-18-203533",
+  "remote_mirror_sha256": {
+    "README.md": "5f3441d3992e79cb999c3a23a114b47c4934cb7536bf0bc8794c9d8103099dba",
+    "JOURNAL.md": "f53bd66f50340c5ea7f21957e702f78bdef84914150470918b458645c30bbb2a",
+    "BOM.md": "39cbeb52041e12c2ac5dee91c0be006d6e69c4d7e340dc74772decb8e5edb003"
+  },
+  "initial_local_hours": [
+    "3",
+    "3",
+    "3",
+    "3",
+    "6"
+  ],
+  "observed_remote_hours": [
+    "3",
+    "3",
+    "5",
+    "3",
+    "3"
+  ],
+  "mirror_files_edited_by_assistant": false,
+  "existing_exports": [
+    {
+      "name": "01-schematic-complete.png",
+      "same_as_existing_electronics_export": true,
+      "remote_sha256": "bc067438de22e0ba911abf8655ae2cb2b104833ef19d6e2541ddab494b3517d0"
+    },
+    {
+      "name": "02-input-detail.png",
+      "same_as_existing_electronics_export": true,
+      "remote_sha256": "cbfb44ec62aad0c43ccd79d11787036a3019fd57ed52bed277e0eff61e4d37d6"
+    },
+    {
+      "name": "03-led-detail.png",
+      "same_as_existing_electronics_export": true,
+      "remote_sha256": "23aadc97e52f175a2ab0adaed3e5ae7d65e550862db8445323bac941c8f47beb"
+    },
+    {
+      "name": "04-pcb-top.png",
+      "same_as_existing_electronics_export": true,
+      "remote_sha256": "6bbc56db6b4ec7a103e8ae4a6468245859c695b0af93bc77cfaa065b6823e40c"
+    },
+    {
+      "name": "05-pcb-bottom.png",
+      "same_as_existing_electronics_export": true,
+      "remote_sha256": "f23ea03addbad098d774fcd96e958ef5e419de0d7a87ad0d37137f96cb7313e5"
+    },
+    {
+      "name": "06-board-3d.png",
+      "same_as_existing_electronics_export": true,
+      "remote_sha256": "135d94325a883dd8936cc2024438d0990ab622675172d36c09201347147b60bf"
+    }
+  ]
+}

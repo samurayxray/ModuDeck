@@ -22,6 +22,9 @@ Then open `ModuDeck-parts-3D.html`: a menu of all parts, rotation, and zoom. No 
 On GitHub: **Actions → Build 3D models → Run workflow** creates a ZIP with source files, STL models, catalog, and viewer. The workflow is manual; it was not run during the initial upload.
 
 ## Documentation
+- [Module Monitor enclosure: measured PCB references and personal modelling guide](3dparts/module-monitor-enclosure/README.md) — preliminary; enclosure modelling and physical fit tests remain to be done.
+- [KiCad PCB assembly STEP](3dparts/module-monitor-enclosure/reference/module-monitor-pcb-assembly.step)
+- Actual KiCad window captures: [PCB](docs/images/module-monitor-pcb-top-screenshot.png), [3D top](docs/images/module-monitor-pcb-3d-top-screenshot.png), [3D oblique](docs/images/module-monitor-pcb-3d-oblique-screenshot.png). These show CAD, not built hardware. Capture provenance is recorded with the enclosure references.
 - [Parts catalog](docs/PARTS.md)
 - [Decisions still to be made](docs/DESIGN.md)
 - [Materials list to complete](BOM.csv)
@@ -30,4 +33,4 @@ On GitHub: **Actions → Build 3D models → Run workflow** creates a ZIP with s
 The concept and initial sources were developed with AI assistance. Record only actual personal work and time in the journal; no funding or completion is declared.
 ## Earlier concept sketch
 Historical sketch: it shows the removed phone/keypad and previous expansion ideas. Current CAD has no phone or dialing keypad. 
-<img width="1536" height="1024" alt="blueprint2" src="https://github.com/user-attachments/assets/1667dc44-f59c-4911-91a6-c5c131656df9" />
+[Historical AI concept illustration — not build evidence](https://github.com/user-attachments/assets/1667dc44-f59c-4911-91a6-c5c131656df9)

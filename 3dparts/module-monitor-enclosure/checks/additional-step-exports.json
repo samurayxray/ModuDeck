@@ -1,0 +1,57 @@
+[
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "export",
+      "step",
+      "--board-only",
+      "--user-origin",
+      "100x50mm",
+      "--output",
+      "3dparts/module-monitor-enclosure/reference/pcb-body.step",
+      "electronics/module-monitor/ModuDeck-Module-Monitor.kicad_pcb"
+    ],
+    "working_directory": "E:\\moduldeck\\ModuDeck-repo",
+    "observed_exit_code": 0,
+    "output_sha256": "4ee7ed2d484063fac7a97dca8e9ea4194bf7095407c95e9223e7412b35d1f4af"
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "export",
+      "step",
+      "--no-board-body",
+      "--component-filter",
+      "A1",
+      "--user-origin",
+      "100x50mm",
+      "--output",
+      "3dparts/module-monitor-enclosure/reference/pico-and-sockets.step",
+      "electronics/module-monitor/ModuDeck-Module-Monitor.kicad_pcb"
+    ],
+    "working_directory": "E:\\moduldeck\\ModuDeck-repo",
+    "observed_exit_code": 0,
+    "output_sha256": "e0f558e76e2bfd9618f4d66e56d1c16bd8d1057d1fdf455723e17813ce2ff2ed"
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "export",
+      "step",
+      "--no-board-body",
+      "--component-filter",
+      "J1",
+      "--user-origin",
+      "100x50mm",
+      "--output",
+      "3dparts/module-monitor-enclosure/reference/terminal-j1.step",
+      "electronics/module-monitor/ModuDeck-Module-Monitor.kicad_pcb"
+    ],
+    "working_directory": "E:\\moduldeck\\ModuDeck-repo",
+    "observed_exit_code": 0,
+    "output_sha256": "6c51880f317c8104d8f361c33aaceb5b2aa3182eb3a0a88ee9abf85d586c0e53"
+  }
+]

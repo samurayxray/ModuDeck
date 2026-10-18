@@ -1,0 +1,348 @@
+{
+  "source": "E:/moduldeck/ModuDeck-ThinkPad-3D.html",
+  "status": "Existing preliminary full-computer study; not Module Monitor enclosure",
+  "parts": [
+    {
+      "part": "01-pc-lower-shell",
+      "triangles": 28,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        370.0,
+        240.0,
+        35.0
+      ],
+      "mesh_size": [
+        370.0,
+        240.0,
+        35.0
+      ]
+    },
+    {
+      "part": "02-top-deck-blank",
+      "triangles": 12,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        370.0,
+        240.0,
+        3.0
+      ],
+      "mesh_size": [
+        370.0,
+        240.0,
+        3.0
+      ]
+    },
+    {
+      "part": "03-display-back",
+      "triangles": 28,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        370.0,
+        225.0,
+        12.0
+      ],
+      "mesh_size": [
+        370.0,
+        225.0,
+        12.0
+      ]
+    },
+    {
+      "part": "04-display-frame",
+      "triangles": 32,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        370.0,
+        225.0,
+        3.0
+      ],
+      "mesh_size": [
+        370.0,
+        225.0,
+        3.0
+      ]
+    },
+    {
+      "part": "05-keyboard-mount-rail",
+      "triangles": 1068,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        160.0,
+        12.0,
+        6.0
+      ],
+      "mesh_size": [
+        160.0,
+        12.0,
+        6.0
+      ]
+    },
+    {
+      "part": "06-touchpad-support",
+      "triangles": 540,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        110.0,
+        80.0,
+        3.0
+      ],
+      "mesh_size": [
+        110.0,
+        80.0,
+        3.0
+      ]
+    },
+    {
+      "part": "07-board-mount-rail",
+      "triangles": 1068,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        160.0,
+        12.0,
+        6.0
+      ],
+      "mesh_size": [
+        160.0,
+        12.0,
+        6.0
+      ]
+    },
+    {
+      "part": "08-board-standoff",
+      "triangles": 256,
+      "mesh_bounds_min": [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        5.0,
+        5.0,
+        8.0
+      ],
+      "mesh_size": [
+        10.0,
+        10.0,
+        8.0
+      ]
+    },
+    {
+      "part": "09-empty-tray-lower",
+      "triangles": 556,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        370.0,
+        240.0,
+        30.0
+      ],
+      "mesh_size": [
+        370.0,
+        240.0,
+        30.0
+      ]
+    },
+    {
+      "part": "10-empty-tray-middle",
+      "triangles": 556,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        370.0,
+        240.0,
+        30.0
+      ],
+      "mesh_size": [
+        370.0,
+        240.0,
+        30.0
+      ]
+    },
+    {
+      "part": "11-empty-tray-upper",
+      "triangles": 556,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        370.0,
+        240.0,
+        30.0
+      ],
+      "mesh_size": [
+        370.0,
+        240.0,
+        30.0
+      ]
+    },
+    {
+      "part": "12-rear-cable-panel",
+      "triangles": 296,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        364.0,
+        3.0,
+        25.0
+      ],
+      "mesh_size": [
+        364.0,
+        3.0,
+        25.0
+      ]
+    },
+    {
+      "part": "13-alignment-guide",
+      "triangles": 144,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        20.0,
+        12.0,
+        6.0
+      ],
+      "mesh_size": [
+        20.0,
+        12.0,
+        6.0
+      ]
+    },
+    {
+      "part": "14-cable-clamp",
+      "triangles": 292,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        24.0,
+        14.0,
+        10.0
+      ],
+      "mesh_size": [
+        24.0,
+        14.0,
+        10.0
+      ]
+    },
+    {
+      "part": "15-foot",
+      "triangles": 256,
+      "mesh_bounds_min": [
+        -11.0,
+        -11.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        11.0,
+        11.0,
+        10.0
+      ],
+      "mesh_size": [
+        22.0,
+        22.0,
+        10.0
+      ]
+    },
+    {
+      "part": "16-side-joining-tab",
+      "triangles": 276,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        35.0,
+        4.0,
+        45.0
+      ],
+      "mesh_size": [
+        35.0,
+        4.0,
+        45.0
+      ]
+    },
+    {
+      "part": "17-handle",
+      "triangles": 292,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        120.0,
+        18.0,
+        30.0
+      ],
+      "mesh_size": [
+        120.0,
+        18.0,
+        30.0
+      ]
+    },
+    {
+      "part": "18-hinge-mount-block",
+      "triangles": 276,
+      "mesh_bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_bounds_max": [
+        40.0,
+        20.0,
+        12.0
+      ],
+      "mesh_size": [
+        40.0,
+        20.0,
+        12.0
+      ]
+    }
+  ]
+}

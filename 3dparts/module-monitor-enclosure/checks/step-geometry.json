@@ -1,0 +1,141 @@
+{
+  "generated_utc": "2026-10-18T18:43:59.783138+00:00",
+  "generated_by": "Codex automated technical checks",
+  "ocp_version": "8.0.1.1",
+  "units": "mm",
+  "step_coordinates": "X right, Y up (PCB extends toward negative Y); board substrate bottom Z=0",
+  "measurements": [
+    {
+      "file": "module-monitor-pcb-assembly.step",
+      "sha256": "3b844309b36e6fa5c3ba3448df8d456582d3151f1134b1ca7155c070588bfe14",
+      "bounds_min_mm": [
+        0.0,
+        -70.0,
+        -1.9050000000000002
+      ],
+      "bounds_max_mm": [
+        90.0,
+        0.0,
+        16.335
+      ],
+      "size_mm": [
+        90.0,
+        70.0,
+        18.240000000000002
+      ],
+      "solid_count": 21,
+      "valid_solids": 21,
+      "shell_count": 21,
+      "closed_shells": 21
+    },
+    {
+      "file": "pcb-body.step",
+      "sha256": "4ee7ed2d484063fac7a97dca8e9ea4194bf7095407c95e9223e7412b35d1f4af",
+      "bounds_min_mm": [
+        0.0,
+        -70.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        90.0,
+        0.0,
+        1.51
+      ],
+      "size_mm": [
+        90.0,
+        70.0,
+        1.51
+      ],
+      "solid_count": 1,
+      "valid_solids": 1,
+      "shell_count": 1,
+      "closed_shells": 1
+    },
+    {
+      "file": "pico-and-sockets.step",
+      "sha256": "e0f558e76e2bfd9618f4d66e56d1c16bd8d1057d1fdf455723e17813ce2ff2ed",
+      "bounds_min_mm": [
+        58.38999999999984,
+        -53.93,
+        -1.5800000000000005
+      ],
+      "bounds_max_mm": [
+        79.39000000000016,
+        -1.3299999999999979,
+        16.335
+      ],
+      "size_mm": [
+        21.00000000000032,
+        52.6,
+        17.915000000000003
+      ],
+      "solid_count": 5,
+      "valid_solids": 5,
+      "shell_count": 5,
+      "closed_shells": 5
+    },
+    {
+      "file": "terminal-j1.step",
+      "sha256": "6c51880f317c8104d8f361c33aaceb5b2aa3182eb3a0a88ee9abf85d586c0e53",
+      "bounds_min_mm": [
+        2.3999999,
+        -21.62000000000013,
+        -1.9050000000000002
+      ],
+      "bounds_max_mm": [
+        12.200000000003893,
+        -10.719999999999876,
+        15.395000000000001
+      ],
+      "size_mm": [
+        9.800000100003892,
+        10.900000000000253,
+        17.3
+      ],
+      "solid_count": 1,
+      "valid_solids": 1,
+      "shell_count": 1,
+      "closed_shells": 1
+    }
+  ],
+  "provisional_stack": {
+    "interpretation": "28mm base height; 2.5mm lid rests ON rim, total closed height 30.5mm",
+    "base_outer_mm": [
+      112,
+      94,
+      28
+    ],
+    "wall_and_floor_mm": 2.5,
+    "lid_mm": [
+      112,
+      94,
+      2.5
+    ],
+    "support_above_inner_floor_mm": 5,
+    "pcb_underside_enclosure_z_mm": 7.5,
+    "assembly_max_enclosure_z_mm": 23.835,
+    "lid_underside_z_mm": 28,
+    "model_top_gap_mm": 4.164999999999999,
+    "model_lead_to_floor_gap_mm": 3.0949999999999998,
+    "internal_xy_mm": [
+      107,
+      89
+    ],
+    "unused_total_xy_for_nominal_board_mm": [
+      17,
+      19
+    ],
+    "pcb_xy_position_selected": false,
+    "physical_fit_verified": false
+  },
+  "enclosure_solids_exist": false,
+  "enclosure_interferences_checked": false,
+  "printable_stl_files_exist": false,
+  "physical_test_performed": false,
+  "limits": [
+    "STEP body is the substrate; default export omits copper and soldermask geometry.",
+    "Nominal PCB thickness 1.6mm comes from the PCB file; substrate STEP alone is thinner.",
+    "No enclosure, USB plug, wires, fasteners, lid bosses or print tolerances are represented.",
+    "A bounding-box gap does not test access, removal paths or collision with future supports."
+  ]
+}

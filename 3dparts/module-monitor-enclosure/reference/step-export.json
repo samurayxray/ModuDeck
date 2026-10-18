@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+    "pcb",
+    "export",
+    "step",
+    "--user-origin",
+    "100.0x50.0mm",
+    "--output",
+    "E:\\moduldeck\\ModuDeck-repo\\3dparts\\module-monitor-enclosure\\reference\\module-monitor-pcb-assembly.step",
+    "E:\\moduldeck\\ModuDeck-repo\\electronics\\module-monitor\\ModuDeck-Module-Monitor.kicad_pcb"
+  ],
+  "exit_code": 0,
+  "stdout": "STEP file 'E:/moduldeck/ModuDeck-repo/3dparts/module-monitor-enclosure/reference/module-monitor-pcb-assembly.step' created.\n\nExport time 1.856 s\n",
+  "stderr": ""
+}

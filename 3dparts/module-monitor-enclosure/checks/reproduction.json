@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_pcb_sha256": "a16150c834d6889d9b14b23abb341679b0a892e0572d11ace532a81ad47cffe1",
+  "check": "Fresh extraction/export into a separate directory reproduced all four STEP bounds and topology counts",
+  "working_evidence": "E:\\moduldeck\\work\\enclosure-reference-reproduction-20261018-check.json",
+  "extraction_version_tested": "db940bdc8b97cb85da8ccc046ba2f2e73305dbd099833e396ddea8a9b2f01aa0",
+  "inspector_version_tested": "b1aa690468463658f8f939ceacd1a2aaa4aa1c1e493a1fa753552ba17240b89d",
+  "does_not_verify": [
+    "Enclosure geometry",
+    "STL meshes",
+    "Physical fit"
+  ]
+}

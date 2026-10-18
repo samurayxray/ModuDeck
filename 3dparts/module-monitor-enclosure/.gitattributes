@@ -1,0 +1,7 @@
+*.md text eol=lf
+*.py text eol=lf
+.gitattributes text eol=lf
+# Preserve exact exporter/report bytes so recorded SHA-256 hashes survive checkout.
+*.step -text -diff
+*.json -text whitespace=cr-at-eol
+*.csv -text whitespace=cr-at-eol
