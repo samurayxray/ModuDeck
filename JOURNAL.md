@@ -18,7 +18,7 @@
 2. [2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-02-all-the-work-for-this-stage-was-already-complete-)
 3. [2026-10-02 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-02-all-the-work-for-this-stage-was-already-complete-)
 4. [2026-10-03 – All the work for this stage was already complete when I wrote the first entry, so I documented it together there. This second entry provides a clearer explanation of the same design and reflects no ad](#2026-10-03-all-the-work-for-this-stage-was-already-complete-)
-5. [2026-10-04 – I prepared 18 preliminary 3D parts for ModuDeck using a provisional 370 × 240 mm footprint. I created previews from the STL models and an offline viewer to inspect each component. The design includes](#2026-10-04-i-prepared-18-preliminary-3d-parts-for-modudeck-u)
+5. [2026-10-04 – The Module Monitor uses a Raspberry Pi Pico to detect whether three removable trays are installed. Each switch input has a 10 kΩ pull-up resistor and a 1 kΩ series resistor. Three LEDs indicate tray p](#2026-10-04-the-module-monitor-uses-a-raspberry-pi-pico-to-de)
 
 ## Design
 
@@ -74,14 +74,14 @@ All the work for this stage was already complete when I wrote the first entry, s
 
 ![module-monitor-pcb-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83.png)
 
-### 2026-10-04 – I prepared 18 preliminary 3D parts for ModuDeck using a provisional 370 × 240 mm footprint. I created previews from the STL models and an offline viewer to inspect each component. The design includes
+### 2026-10-04 – The Module Monitor uses a Raspberry Pi Pico to detect whether three removable trays are installed. Each switch input has a 10 kΩ pull-up resistor and a 1 kΩ series resistor. Three LEDs indicate tray p
 
 **3h**
 
-I prepared 18 preliminary 3D parts for ModuDeck using a provisional 370 × 240 mm footprint. I created previews from the STL models and an offline viewer to inspect each component. The design includes enclosure blanks, mounting supports, three empty trays, rear panels, cable clamps and feet. I revised the parts list to reuse the ThinkPad components and recorded printed parts at zero cost. The donor computer is not tested yet, and the power adapter, mounting positions and cooling clearances still need verification.
+The Module Monitor uses a Raspberry Pi Pico to detect whether three removable trays are installed. Each switch input has a 10 kΩ pull-up resistor and a 1 kΩ series resistor. Three LEDs indicate tray presence, and USB provides power and communication. The repository contains the schematic, PCB layout, firmwarThe Module Monitor utilizes a Raspberry Pi Pico to determine the presence of three removable trays. Each switch input is equipped with a 10 kΩ pull-up resistor and a 1 kΩ series resistor. Three LEDs indicate whether each tray is installed. Power and communication are provided via USB. The repository includes the schematic, PCB layout, firmware, and design exports. Physical assembly and hardware testing are still pending.e, and design exports. Physical assembly and hardware testing are still pending.
 
-![02-three-empty-trays](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/257cd2865f9d9f3f4e5ceee3d618894a1e511642b8b9cb391ed96e76f848cecf.png)
+![module-monitor-pcb-3d-oblique-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/e002f12d8dd83de624d98ea2d11355442f7f19424fe5afdf0a325d0fcb8dcc6b.png)
 
-![01-computer-parts](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/5ac9ee2434eec0082df04585ed0ed0bfd11460e603bbefb6e9789ce9a3d0f5bf.png)
+![module-monitor-pcb-3d-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/dac85117e05a416d17491418cd79a30d9c24f2fda9a529ae9e96dbeb57e9427f.png)
 
-![03-small-parts](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/6e223816ad925b9adb7e68e8de397dfcaf5ac20968ea77f6de728e66c92ddff9.png)
+![module-monitor-pcb-top-screenshot](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dnf0QiY8U5i5iBpbsyYlTiK3wkfqnu8r/ea58af0210e914c455ed45573587d43ee4992718666ee72b4f5e27fba85b9d83.png)
